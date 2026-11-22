@@ -1,0 +1,26 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Engine and importer tests
+        run: npm test
+      - name: Backtest reproduces the write-up numbers
+        run: |
+          node scripts/backtest.mjs | tee backtest.txt
+          grep -q "Shares 1000 | accepted 310 (31.0%) | contacts 210 | meetings 42" backtest.txt
+          grep -q "contacts/100 28.3, meetings 56.6" backtest.txt
+      - name: Built page is up to date with src/
+        run: |
+          npm run build
+          git diff --exit-code index.html

@@ -1,0 +1,14 @@
+{
+  "name": "match-guard",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Pre-send preference check for matchmakers: The Date Crew product growth assessment prototype",
+  "scripts": {
+    "data": "node scripts/generate-mock-data.mjs",
+    "backtest": "node scripts/backtest.mjs",
+    "build": "node scripts/build.mjs",
+    "test": "node --test test/*.test.mjs",
+    "templates": "node scripts/export-templates.mjs"
+  }
+}

@@ -1,0 +1,2 @@
+share_id,date,matchmaker,client_id,candidate_id,furthest_stage,feedback,reason_bucket
+S0001,2026-10-23,A,C01,P1183,rejected,Not for me.,vague

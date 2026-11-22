@@ -1,0 +1,1001 @@
+share_id,date,matchmaker,client_id,candidate_id,furthest_stage,feedback,reason_bucket
+S0001,2026-10-23,A,C01,P1183,rejected,Not for me.,vague
+S0002,2026-10-23,A,C08,P1258,rejected,Can we revisit after Diwali?,timing
+S0003,2026-10-23,A,C09,P1048,meeting_completed,,
+S0004,2026-10-23,A,C09,P1191,rejected,"Hmm, no.",vague
+S0005,2026-10-23,A,C10,P1116,contact_shared,,
+S0006,2026-10-23,B,C11,P1275,meeting_completed,,
+S0007,2026-10-23,B,C11,P1425,rejected,Language would be a barrier with my family.,avoidable
+S0008,2026-10-23,B,C12,P1465,rejected,"Not keen on someone in medicine, the hours are crazy.",new_pref
+S0009,2026-10-23,B,C13,P1392,rejected,"I'd prefer someone with a postgraduate degree, as I mentioned.",avoidable
+S0010,2026-10-23,B,C13,P1462,rejected,Not my type.,taste
+S0011,2026-10-23,B,C14,P1337,rejected,"Saw a cigarette in one of the photos, that is a no for me.",avoidable
+S0012,2026-10-23,B,C14,P1488,rejected,Looks-wise not for me.,taste
+S0013,2026-10-23,B,C15,P1539,rejected,Not interested.,vague
+S0014,2026-10-23,B,C15,P1559,rejected,Nope.,vague
+S0015,2026-10-23,B,C16,P1301,conversation,,
+S0016,2026-10-23,B,C16,P1405,rejected,I'm strictly vegetarian and need a vegetarian partner.,avoidable
+S0017,2026-10-23,B,C16,P1459,rejected,"Not keen on someone in finance, the hours are crazy.",new_pref
+S0018,2026-10-23,B,C17,P1441,rejected,Height is an issue.,avoidable
+S0019,2026-10-23,B,C17,P1444,rejected,"He's settled in London, I don't want to move abroad.",new_pref
+S0020,2026-10-23,B,C19,P1334,rejected,"I'd prefer someone with a postgraduate degree, as I mentioned.",avoidable
+S0021,2026-10-23,B,C19,P1364,rejected,"Would really prefer a Bengali speaker, my parents don't speak much English.",avoidable
+S0022,2026-10-23,B,C20,P1297,meeting_fixed,,
+S0023,2026-10-23,B,C20,P1399,rejected,"I'd prefer someone with a postgraduate degree, as I mentioned.",avoidable
+S0024,2026-10-23,B,C20,P1538,rejected,Looks-wise not for me.,taste
+S0025,2026-10-23,C,C27,P1607,contact_shared,,
+S0026,2026-10-23,C,C27,P1665,rejected,I wanted someone shorter.,avoidable
+S0027,2026-10-23,C,C28,P1567,accepted,,
+S0028,2026-10-23,C,C30,P1632,conversation,,
+S0029,2026-10-23,D,C31,P1845,meeting_completed,,
+S0030,2026-10-23,D,C31,P1880,accepted,,
+S0031,2026-10-23,D,C32,P1849,conversation,,
+S0032,2026-10-23,D,C32,P1885,rejected,"Not okay with smoking, I mentioned this on our first call.",avoidable
+S0033,2026-10-23,D,C35,P1862,contact_shared,,
+S0034,2026-10-23,D,C35,P2031,rejected,Only one photo and it's old.,presentation
+S0035,2026-10-23,D,C39,P1919,rejected,"Joint family set-up, I'd said I don't want that.",avoidable
+S0036,2026-10-24,A,C01,P1046,accepted,,
+S0037,2026-10-24,A,C01,P1101,meeting_completed,,
+S0038,2026-10-24,A,C01,P1243,rejected,"Hmm, no.",vague
+S0039,2026-10-24,A,C02,P1047,accepted,,
+S0040,2026-10-24,A,C02,P1252,rejected,"Not ready this week, work is crazy.",timing
+S0041,2026-10-24,A,C03,P1074,conversation,,
+S0042,2026-10-24,A,C03,P1167,rejected,Didn't feel any attraction from the photos.,taste
+S0043,2026-10-24,A,C03,P1178,rejected,Not for me.,vague
+S0044,2026-10-24,A,C03,P1246,rejected,Comes across as too serious.,taste
+S0045,2026-10-24,A,C09,P2063,conversation,,
+S0046,2026-10-24,B,C11,P1463,rejected,"Busy with a work launch, send me profiles next month.",timing
+S0047,2026-10-24,B,C14,P1464,rejected,Seems a bit arrogant from the bio.,taste
+S0048,2026-10-24,B,C15,P1524,rejected,Not feeling it.,vague
+S0049,2026-10-24,B,C19,P1534,rejected,Not interested.,vague
+S0050,2026-10-24,B,C20,P1560,rejected,"No spark, sorry.",taste
+S0051,2026-10-24,C,C21,P1653,rejected,Height is an issue.,avoidable
+S0052,2026-10-24,C,C21,P1682,rejected,I'm strictly vegetarian and need a vegetarian partner.,avoidable
+S0053,2026-10-24,C,C22,P1578,accepted,,
+S0054,2026-10-24,C,C22,P1658,rejected,I'm strictly vegetarian and need a vegetarian partner.,avoidable
+S0055,2026-10-24,C,C24,P1779,rejected,Didn't feel any attraction from the photos.,taste
+S0056,2026-10-24,C,C26,P1602,conversation,,
+S0057,2026-10-24,C,C27,P1626,contact_shared,,
+S0058,2026-10-24,C,C27,P1788,rejected,"Travelling this month, please hold off.",timing
+S0059,2026-10-24,C,C29,P1804,rejected,Seems a bit flashy.,taste
+S0060,2026-10-24,C,C30,P1801,rejected,Didn't feel any attraction from the photos.,taste
+S0061,2026-10-24,D,C35,P1939,rejected,I'd rather not marry a investment banker.,new_pref
+S0062,2026-10-24,D,C35,P1963,rejected,Can we revisit after Diwali?,timing
+S0063,2026-10-24,D,C35,P2036,rejected,"Not keen on someone in medicine, the hours are crazy.",new_pref
+S0064,2026-10-24,D,C37,P2023,rejected,Not this one.,vague
+S0065,2026-10-24,D,C38,P1933,rejected,Comes across as too serious.,taste
+S0066,2026-10-24,D,C39,P1979,rejected,I'd rather not marry a doctor.,new_pref
+S0067,2026-10-25,A,C04,P1055,accepted,,
+S0068,2026-10-25,A,C05,P1241,rejected,"No spark, sorry.",taste
+S0069,2026-10-25,A,C08,P1067,accepted,,
+S0070,2026-10-25,A,C08,P1118,meeting_completed,,
+S0071,2026-10-25,B,C11,P1300,contact_shared,,
+S0072,2026-10-25,B,C11,P1338,rejected,"Too old for me, I said up to 32.",avoidable
+S0073,2026-10-25,B,C12,P1504,rejected,"Not keen on someone in consulting, the hours are crazy.",new_pref
+S0074,2026-10-25,B,C14,P1302,meeting_completed,,
+S0075,2026-10-25,B,C14,P1310,contact_shared,,
+S0076,2026-10-25,B,C14,P1341,rejected,"Different city, and she isn't open to moving.",avoidable
+S0077,2026-10-25,B,C15,P1423,rejected,"She is Hindu, I'd asked for Sikh only.",avoidable
+S0078,2026-10-25,B,C19,P1400,rejected,Education level doesn't match what I asked for.,avoidable
+S0079,2026-10-25,B,C19,P1547,rejected,I'd rather not marry a doctor.,new_pref
+S0080,2026-10-25,B,C20,P1467,rejected,"Hmm, no.",vague
+S0081,2026-10-25,C,C21,P1685,rejected,"Inter-faith won't work for us, sorry.",avoidable
+S0082,2026-10-25,C,C21,P1777,rejected,"Photos are blurry, can you get better ones?",presentation
+S0083,2026-10-25,C,C21,P1789,rejected,Seems a bit flashy.,taste
+S0084,2026-10-25,C,C22,P1618,accepted,,
+S0085,2026-10-25,C,C22,P1781,rejected,Not drawn to her profile.,taste
+S0086,2026-10-25,C,C23,P1771,rejected,Looks-wise not for me.,taste
+S0087,2026-10-25,C,C24,P1615,accepted,,
+S0088,2026-10-25,C,C24,P1635,conversation,,
+S0089,2026-10-25,C,C25,P1782,rejected,Not feeling it.,vague
+S0090,2026-10-25,C,C26,P1725,rejected,Didn't feel any attraction from the photos.,taste
+S0091,2026-10-25,C,C30,P1588,meeting_fixed,,
+S0092,2026-10-25,C,C30,P1670,rejected,"I'd prefer someone with a postgraduate degree, as I mentioned.",avoidable
+S0093,2026-10-25,C,C30,P1679,rejected,We want different things on children.,avoidable
+S0094,2026-10-25,D,C31,P1953,rejected,"Busy with a work launch, send me profiles next month.",timing
+S0095,2026-10-25,D,C31,P1993,rejected,Seems a bit flashy.,taste
+S0096,2026-10-25,D,C31,P2004,rejected,Nope.,vague
+S0097,2026-10-25,D,C34,P1985,rejected,Didn't feel any attraction from the photos.,taste
+S0098,2026-10-25,D,C35,P1871,meeting_completed,,
+S0099,2026-10-25,D,C36,P1942,rejected,"Not keen on someone in medicine, the hours are crazy.",new_pref
+S0100,2026-10-25,D,C37,P1910,rejected,Slightly older than I wanted.,avoidable
+S0101,2026-10-25,D,C38,P2006,rejected,Not for me.,vague
+S0102,2026-10-25,D,C40,P1881,rejected,"She's a investment banker, that's a 24x7 job. I'd mentioned this on the call.",avoidable
+S0103,2026-10-26,A,C03,P1196,rejected,Not ambitious enough for me.,taste
+S0104,2026-10-26,A,C04,P1208,rejected,Not drawn to her profile.,taste
+S0105,2026-10-26,A,C06,P1089,contact_shared,,
+S0106,2026-10-26,A,C09,P1081,contact_shared,,
+S0107,2026-10-26,A,C10,P1102,meeting_fixed,,
+S0108,2026-10-26,B,C11,P1263,conversation,,
+S0109,2026-10-26,B,C11,P1296,accepted,,
+S0110,2026-10-26,B,C11,P1546,rejected,Not drawn to his profile.,taste
+S0111,2026-10-26,B,C11,P1556,rejected,Can we revisit after Diwali?,timing
+S0112,2026-10-26,B,C12,P1281,conversation,,
+S0113,2026-10-26,B,C12,P1314,conversation,,
+S0114,2026-10-26,B,C13,P1409,rejected,"She lives with her parents in a joint family, not for me.",avoidable
+S0115,2026-10-26,B,C16,P1518,rejected,Not my type.,taste
+S0116,2026-10-26,B,C17,P1408,rejected,I'm strictly vegetarian and need a vegetarian partner.,avoidable
+S0117,2026-10-26,B,C18,P1288,conversation,,
+S0118,2026-10-26,B,C18,P1388,rejected,"Non-veg, not compatible with my family.",avoidable
+S0119,2026-10-26,B,C18,P1548,rejected,Not drawn to her profile.,taste
+S0120,2026-10-26,B,C19,P1396,rejected,We want different things on children.,avoidable
+S0121,2026-10-26,B,C19,P1505,rejected,Looks-wise not for me.,taste
+S0122,2026-10-26,B,C19,P1523,rejected,Not drawn to his profile.,taste
+S0123,2026-10-26,C,C21,P1705,rejected,No.,vague
+S0124,2026-10-26,C,C22,P1793,rejected,"Feels very introverted, I'm quite outgoing.",taste
+S0125,2026-10-26,C,C23,P1608,meeting_completed,,
+S0126,2026-10-26,C,C23,P1662,rejected,"Child-free isn't for me, I want a family.",avoidable
+S0127,2026-10-26,C,C23,P1752,rejected,Nope.,vague
+S0128,2026-10-26,C,C25,P1699,rejected,Only one photo and it's old.,presentation
+S0129,2026-10-26,C,C28,P1634,accepted,,
+S0130,2026-10-26,C,C28,P1678,rejected,I don't drink and want someone who doesn't either.,avoidable
+S0131,2026-10-26,C,C28,P1702,rejected,"Not keen on someone in medicine, the hours are crazy.",new_pref
+S0132,2026-10-26,C,C30,P1780,rejected,Not feeling it.,vague
+S0133,2026-10-26,D,C35,P1992,rejected,Not ambitious enough for me.,taste
+S0134,2026-10-26,D,C36,P1981,rejected,I'd rather not marry a management consultant.,new_pref
+S0135,2026-10-26,D,C39,P1858,meeting_completed,,
+S0136,2026-10-26,D,C39,P1951,rejected,"The bio is empty, I can't tell anything about him.",presentation
+S0137,2026-10-27,A,C01,P1070,accepted,,
+S0138,2026-10-27,A,C08,P1093,accepted,,
+S0139,2026-10-27,A,C08,P1166,rejected,"No spark, sorry.",taste
+S0140,2026-10-27,A,C09,P1210,rejected,Looks-wise not for me.,taste
+S0141,2026-10-27,A,C10,P1160,rejected,Profile says he smokes. Not for me.,avoidable
+S0142,2026-10-27,A,C10,P1190,rejected,"Travelling this month, please hold off.",timing
+S0143,2026-10-27,B,C11,P1357,rejected,I wanted someone taller.,avoidable
+S0144,2026-10-27,B,C11,P1438,rejected,"Second marriage, not what I'm looking for.",avoidable
+S0145,2026-10-27,B,C12,P1343,rejected,"NRI, not for me as I said.",avoidable
+S0146,2026-10-27,B,C12,P1429,rejected,"NRI, not for me as I said.",avoidable
+S0147,2026-10-27,B,C13,P1522,rejected,Didn't feel any attraction from the photos.,taste
+S0148,2026-10-27,B,C14,P1374,rejected,Height is an issue.,avoidable
+S0149,2026-10-27,B,C15,P1458,rejected,I'd rather not marry a management consultant.,new_pref
+S0150,2026-10-27,B,C15,P1544,rejected,"Travelling this month, please hold off.",timing
+S0151,2026-10-27,B,C17,P1477,rejected,Seems a bit arrogant from the bio.,taste
+S0152,2026-10-27,B,C18,P1552,rejected,Pass.,vague
+S0153,2026-10-27,B,C20,P1380,rejected,She's taller than I'm comfortable with.,avoidable
+S0154,2026-10-27,C,C22,P1723,rejected,"Not ready this week, work is crazy.",timing
+S0155,2026-10-27,C,C23,P1585,meeting_completed,,
+S0156,2026-10-27,C,C23,P1798,rejected,Can we revisit after Diwali?,timing
+S0157,2026-10-27,C,C25,P1684,rejected,"Child-free isn't for me, I want a family.",avoidable
+S0158,2026-10-27,C,C25,P1744,rejected,Not for me.,vague
+S0159,2026-10-27,C,C26,P1774,rejected,Can you share more pics? Hard to decide.,presentation
+S0160,2026-10-27,C,C28,P1663,rejected,"I'm looking within my community, as I said.",avoidable
+S0161,2026-10-27,C,C28,P1710,rejected,"He lives with his parents in a big joint family, not sure about that.",new_pref
+S0162,2026-10-27,C,C30,P1633,accepted,,
+S0163,2026-10-27,D,C31,P1831,contact_shared,,
+S0164,2026-10-27,D,C32,P1859,contact_shared,,
+S0165,2026-10-27,D,C32,P2035,rejected,Pass.,vague
+S0166,2026-10-27,D,C34,P1825,accepted,,
+S0167,2026-10-27,D,C34,P1970,rejected,Can you share more pics? Hard to decide.,presentation
+S0168,2026-10-27,D,C39,P2005,rejected,Comes across as too serious.,taste
+S0169,2026-10-27,D,C40,P2018,rejected,Comes across as too serious.,taste
+S0170,2026-10-28,A,C01,P1198,rejected,"Travelling this month, please hold off.",timing
+S0171,2026-10-28,A,C02,P1220,rejected,"Travelling this month, please hold off.",timing
+S0172,2026-10-28,A,C06,P1123,meeting_fixed,,
+S0173,2026-10-28,A,C06,P1256,rejected,"Not keen on someone in law, the hours are crazy.",new_pref
+S0174,2026-10-28,A,C07,P1240,rejected,Not ambitious enough for me.,taste
+S0175,2026-10-28,A,C09,P1099,conversation,,
+S0176,2026-10-28,A,C09,P1242,rejected,"Busy with a work launch, send me profiles next month.",timing
+S0177,2026-10-28,B,C12,P1553,rejected,Only one photo and it's old.,presentation
+S0178,2026-10-28,B,C13,P1290,accepted,,
+S0179,2026-10-28,B,C14,P1442,rejected,We want different things on children.,avoidable
+S0180,2026-10-28,B,C15,P1354,rejected,Age gap is too big.,avoidable
+S0181,2026-10-28,B,C15,P1492,rejected,Not feeling it.,vague
+S0182,2026-10-28,B,C18,P1346,rejected,"Different religion, my family won't be okay with it.",avoidable
+S0183,2026-10-28,B,C19,P1329,rejected,"Second marriage, not what I'm looking for.",avoidable
+S0184,2026-10-28,B,C20,P1265,meeting_completed,,
+S0185,2026-10-28,B,C20,P1450,rejected,Seems a bit arrogant from the bio.,taste
+S0186,2026-10-28,C,C23,P1674,rejected,A little young for me.,avoidable
+S0187,2026-10-28,C,C24,P1646,rejected,"Not okay with smoking, I mentioned this on our first call.",avoidable
+S0188,2026-10-28,C,C24,P1753,rejected,Seems a bit flashy.,taste
+S0189,2026-10-28,C,C25,P1617,meeting_fixed,,
+S0190,2026-10-28,C,C25,P1624,accepted,,
+S0191,2026-10-28,C,C27,P1609,contact_shared,,
+S0192,2026-10-28,C,C27,P1629,contact_shared,,
+S0193,2026-10-28,C,C28,P1605,conversation,,
+S0194,2026-10-28,C,C28,P1680,rejected,"He is Buddhist, I'd asked for Muslim only.",avoidable
+S0195,2026-10-28,C,C28,P1718,rejected,"No spark, sorry.",taste
+S0196,2026-10-28,C,C29,P1600,contact_shared,,
+S0197,2026-10-28,C,C30,P1642,rejected,"Inter-faith won't work for us, sorry.",avoidable
+S0198,2026-10-28,C,C30,P1659,rejected,Lives in Chennai and won't relocate. Long distance won't work.,avoidable
+S0199,2026-10-28,C,C30,P1711,rejected,No.,vague
+S0200,2026-10-28,C,C30,P1719,rejected,Not for me.,vague
+S0201,2026-10-28,C,C30,P1748,rejected,Seems a bit flashy.,taste
+S0202,2026-10-28,C,C30,P1784,rejected,Can you share more pics? Hard to decide.,presentation
+S0203,2026-10-28,D,C31,P1943,rejected,Seems a bit flashy.,taste
+S0204,2026-10-28,D,C32,P1872,meeting_fixed,,
+S0205,2026-10-28,D,C34,P1956,rejected,"The bio is empty, I can't tell anything about him.",presentation
+S0206,2026-10-28,D,C35,P1817,accepted,,
+S0207,2026-10-28,D,C37,P1983,rejected,Didn't feel any attraction from the photos.,taste
+S0208,2026-10-29,A,C02,P1088,meeting_fixed,,
+S0209,2026-10-29,A,C02,P1213,rejected,No.,vague
+S0210,2026-10-29,A,C04,P1215,rejected,"Feels very introverted, I'm quite outgoing.",taste
+S0211,2026-10-29,A,C05,P1059,contact_shared,,
+S0212,2026-10-29,A,C06,P1042,conversation,,
+S0213,2026-10-29,A,C07,P1098,accepted,,
+S0214,2026-10-29,A,C08,P1041,conversation,,
+S0215,2026-10-29,A,C08,P1248,rejected,Nope.,vague
+S0216,2026-10-29,B,C11,P1282,contact_shared,,
+S0217,2026-10-29,B,C11,P1383,rejected,Height is an issue.,avoidable
+S0218,2026-10-29,B,C13,P1422,rejected,Age gap is too big.,avoidable
+S0219,2026-10-29,B,C14,P1512,rejected,Not interested.,vague
+S0220,2026-10-29,B,C17,P1394,rejected,"He's in finance, I told you I'm not keen on that.",avoidable
+S0221,2026-10-29,B,C18,P1359,rejected,"Different religion, my family won't be okay with it.",avoidable
+S0222,2026-10-29,B,C19,P1519,rejected,"Not ready this week, work is crazy.",timing
+S0223,2026-10-29,C,C22,P1577,meeting_completed,,
+S0224,2026-10-29,C,C23,P1563,accepted,,
+S0225,2026-10-29,C,C23,P1698,rejected,Not drawn to his profile.,taste
+S0226,2026-10-29,C,C24,P1756,rejected,"She's settled in London, I don't want to move abroad.",new_pref
+S0227,2026-10-29,D,C31,P1905,rejected,We want different things on children.,avoidable
+S0228,2026-10-29,D,C32,P1887,rejected,"He's settled in New York, I want to stay in India.",avoidable
+S0229,2026-10-29,D,C33,P1826,accepted,,
+S0230,2026-10-29,D,C34,P1921,rejected,"I'd prefer someone with a postgraduate degree, as I mentioned.",avoidable
+S0231,2026-10-29,D,C34,P1961,rejected,"He's settled in London, I don't want to move abroad.",new_pref
+S0232,2026-10-29,D,C36,P2001,rejected,Not feeling it.,vague
+S0233,2026-10-29,D,C36,P2019,rejected,"He lives with his parents in a big joint family, not sure about that.",new_pref
+S0234,2026-10-29,D,C37,P2039,rejected,Pass.,vague
+S0235,2026-10-30,A,C04,P1245,rejected,I'd really prefer someone in Hyderabad.,new_pref
+S0236,2026-10-30,A,C05,P1130,accepted,,
+S0237,2026-10-30,A,C07,P1194,rejected,"Feels very introverted, I'm quite outgoing.",taste
+S0238,2026-10-30,A,C08,P1163,rejected,Didn't feel any attraction from the photos.,taste
+S0239,2026-10-30,A,C10,P1221,rejected,Not drawn to his profile.,taste
+S0240,2026-10-30,B,C11,P1389,rejected,Language would be a barrier with my family.,avoidable
+S0241,2026-10-30,B,C12,P1264,accepted,,
+S0242,2026-10-30,B,C12,P1457,rejected,"Not ready this week, work is crazy.",timing
+S0243,2026-10-30,B,C13,P1285,accepted,,
+S0244,2026-10-30,B,C14,P1536,rejected,Only one photo and it's old.,presentation
+S0245,2026-10-30,B,C15,P1270,accepted,,
+S0246,2026-10-30,B,C16,P1279,contact_shared,,
+S0247,2026-10-30,B,C16,P1486,rejected,Nope.,vague
+S0248,2026-10-30,B,C18,P1267,accepted,,
+S0249,2026-10-30,B,C18,P1527,rejected,Can you share more pics? Hard to decide.,presentation
+S0250,2026-10-30,B,C19,P1384,rejected,Slightly older than I wanted.,avoidable
+S0251,2026-10-30,B,C19,P1470,rejected,Long distance won't work for me.,new_pref
+S0252,2026-10-30,B,C20,P1306,conversation,,
+S0253,2026-10-30,B,C20,P1316,accepted,,
+S0254,2026-10-30,B,C20,P1324,rejected,"She's a doctor, that's a 24x7 job. I'd mentioned this on the call.",avoidable
+S0255,2026-10-30,B,C20,P1509,rejected,Bio was too generic.,presentation
+S0256,2026-10-30,C,C21,P1671,rejected,"He is Muslim, I'd asked for Christian only.",avoidable
+S0257,2026-10-30,C,C22,P1743,rejected,Didn't feel any attraction from the photos.,taste
+S0258,2026-10-30,C,C23,P1741,rejected,Not this one.,vague
+S0259,2026-10-30,C,C25,P1787,rejected,Height matters to me more than I thought.,new_pref
+S0260,2026-10-30,C,C27,P1586,meeting_fixed,,
+S0261,2026-10-30,D,C31,P1924,rejected,Age gap is too big.,avoidable
+S0262,2026-10-30,D,C32,P1900,rejected,"Saw a cigarette in one of the photos, that is a no for me.",avoidable
+S0263,2026-10-30,D,C33,P1976,rejected,Not interested.,vague
+S0264,2026-10-30,D,C33,P2014,rejected,Not this one.,vague
+S0265,2026-10-30,D,C33,P2033,rejected,"Busy with a work launch, send me profiles next month.",timing
+S0266,2026-10-30,D,C34,P1879,accepted,,
+S0267,2026-10-30,D,C36,P1901,rejected,A little young for me.,avoidable
+S0268,2026-10-30,D,C37,P1873,meeting_fixed,,
+S0269,2026-10-30,D,C40,P1882,rejected,"She's a doctor, that's a 24x7 job. I'd mentioned this on the call.",avoidable
+S0270,2026-10-30,D,C40,P1974,rejected,No.,vague
+S0271,2026-10-31,A,C01,P1151,rejected,"Saw a cigarette in one of the photos, that is a no for me.",avoidable
+S0272,2026-10-31,A,C01,P1179,rejected,Didn't feel any attraction from the photos.,taste
+S0273,2026-10-31,A,C02,P1235,rejected,Can we revisit after Diwali?,timing
+S0274,2026-10-31,A,C04,P1076,contact_shared,,
+S0275,2026-10-31,A,C04,P1147,rejected,"Smoker, sorry. Deal breaker.",avoidable
+S0276,2026-10-31,A,C08,P1218,rejected,Bio was too generic.,presentation
+S0277,2026-10-31,A,C09,P1260,rejected,Not interested.,vague
+S0278,2026-10-31,A,C10,P1069,contact_shared,,
+S0279,2026-10-31,A,C10,P1227,rejected,Seems a bit flashy.,taste
+S0280,2026-10-31,A,C10,P1251,rejected,"The bio is empty, I can't tell anything about him.",presentation
+S0281,2026-10-31,B,C11,P1321,meeting_fixed,,
+S0282,2026-10-31,B,C12,P1387,rejected,"Bit too young for me, I think.",avoidable
+S0283,2026-10-31,B,C14,P2046,accepted,,
+S0284,2026-10-31,B,C16,P1419,rejected,"He eats meat, we're pure veg at home.",avoidable
+S0285,2026-10-31,B,C16,P1526,rejected,Seems a bit flashy.,taste
+S0286,2026-10-31,B,C17,P1304,conversation,,
+S0287,2026-10-31,B,C18,P1413,rejected,Age gap is too big.,avoidable
+S0288,2026-10-31,B,C18,P1417,rejected,"Bit too young for me, I think.",avoidable
+S0289,2026-10-31,B,C18,P1424,rejected,"Non-veg, not compatible with my family.",avoidable
+S0290,2026-10-31,B,C18,P1516,rejected,"Travelling this month, please hold off.",timing
+S0291,2026-10-31,B,C19,P1557,rejected,Not drawn to his profile.,taste
+S0292,2026-10-31,C,C23,P1640,contact_shared,,
+S0293,2026-10-31,C,C26,P1762,rejected,Didn't feel any attraction from the photos.,taste
+S0294,2026-10-31,C,C27,P1575,accepted,,
+S0295,2026-10-31,C,C29,P1729,rejected,"Hmm, no.",vague
+S0296,2026-10-31,D,C32,P1977,rejected,"The photos are very dark, I can't tell.",presentation
+S0297,2026-10-31,D,C32,P2000,rejected,Didn't feel any attraction from the photos.,taste
+S0298,2026-10-31,D,C33,P1994,rejected,Seems a bit arrogant from the bio.,taste
+S0299,2026-10-31,D,C34,P1852,accepted,,
+S0300,2026-10-31,D,C34,P1874,conversation,,
+S0301,2026-10-31,D,C34,P2015,rejected,"He's settled in London, I don't want to move abroad.",new_pref
+S0302,2026-10-31,D,C35,P2008,rejected,"Feels very introverted, I'm quite outgoing.",taste
+S0303,2026-10-31,D,C36,P1840,meeting_fixed,,
+S0304,2026-10-31,D,C39,P1835,meeting_completed,,
+S0305,2026-10-31,D,C40,P1853,conversation,,
+S0306,2026-11-01,A,C02,P1180,rejected,Looks-wise not for me.,taste
+S0307,2026-11-01,A,C03,P1233,rejected,Long distance won't work for me.,new_pref
+S0308,2026-11-01,A,C05,P1086,accepted,,
+S0309,2026-11-01,A,C09,P1104,contact_shared,,
+S0310,2026-11-01,A,C10,P1079,meeting_completed,,
+S0311,2026-11-01,B,C11,P1540,rejected,Not my type.,taste
+S0312,2026-11-01,B,C12,P1437,rejected,We want different things on children.,avoidable
+S0313,2026-11-01,B,C13,P1386,rejected,"Drinks regularly, not my thing.",avoidable
+S0314,2026-11-01,B,C14,P1350,rejected,I wanted someone shorter.,avoidable
+S0315,2026-11-01,B,C16,P1385,rejected,I wanted someone taller.,avoidable
+S0316,2026-11-01,B,C17,P1368,rejected,"Not okay with smoking, I mentioned this on our first call.",avoidable
+S0317,2026-11-01,B,C17,P1517,rejected,I'd really prefer someone in Delhi NCR.,new_pref
+S0318,2026-11-01,B,C18,P1331,rejected,I'm strictly vegetarian and need a vegetarian partner.,avoidable
+S0319,2026-11-01,B,C19,P1311,contact_shared,,
+S0320,2026-11-01,B,C19,P1404,rejected,"Inter-faith won't work for us, sorry.",avoidable
+S0321,2026-11-01,B,C20,P1430,rejected,"She's divorced, I'd said never married only.",avoidable
+S0322,2026-11-01,C,C21,P1568,accepted,,
+S0323,2026-11-01,C,C21,P1720,rejected,Seems a bit flashy.,taste
+S0324,2026-11-01,C,C21,P1766,rejected,Not my type.,taste
+S0325,2026-11-01,C,C23,P1693,rejected,Only one photo and it's old.,presentation
+S0326,2026-11-01,C,C24,P1579,accepted,,
+S0327,2026-11-01,C,C26,P1574,conversation,,
+S0328,2026-11-01,C,C26,P1583,meeting_fixed,,
+S0329,2026-11-01,C,C27,P1810,rejected,Not interested.,vague
+S0330,2026-11-01,C,C28,P1581,contact_shared,,
+S0331,2026-11-01,C,C28,P1627,conversation,,
+S0332,2026-11-01,C,C29,P1742,rejected,Nope.,vague
+S0333,2026-11-01,C,C30,P1767,rejected,Not feeling it.,vague
+S0334,2026-11-01,D,C33,P1876,contact_shared,,
+S0335,2026-11-01,D,C34,P1989,rejected,Height matters to me more than I thought.,new_pref
+S0336,2026-11-01,D,C36,P1812,meeting_fixed,,
+S0337,2026-11-01,D,C37,P1995,rejected,Nope.,vague
+S0338,2026-11-01,D,C39,P1860,accepted,,
+S0339,2026-11-02,A,C02,P1113,conversation,,
+S0340,2026-11-02,A,C03,P2050,conversation,,
+S0341,2026-11-02,A,C03,P1135,contact_shared,,
+S0342,2026-11-02,A,C03,P1168,rejected,"Profile is very thin, barely any info.",presentation
+S0343,2026-11-02,A,C04,P1185,rejected,Pass.,vague
+S0344,2026-11-02,A,C08,P1230,rejected,Not this one.,vague
+S0345,2026-11-02,B,C11,P1378,rejected,I wanted someone taller.,avoidable
+S0346,2026-11-02,B,C11,P1502,rejected,"No spark, sorry.",taste
+S0347,2026-11-02,B,C15,P1332,rejected,I need someone in Delhi NCR.,avoidable
+S0348,2026-11-02,B,C17,P1456,rejected,"Feels very introverted, I'm quite outgoing.",taste
+S0349,2026-11-02,B,C17,P1495,rejected,Didn't feel any attraction from the photos.,taste
+S0350,2026-11-02,B,C18,P1315,contact_shared,,
+S0351,2026-11-02,B,C18,P1407,rejected,Lives in Mumbai and won't relocate. Long distance won't work.,avoidable
+S0352,2026-11-02,B,C18,P1439,rejected,"Would really prefer a Punjabi speaker, my parents don't speak much English.",avoidable
+S0353,2026-11-02,C,C23,P1619,conversation,,
+S0354,2026-11-02,C,C23,P1726,rejected,I'd really prefer someone in Bengaluru.,new_pref
+S0355,2026-11-02,C,C26,P1703,rejected,Not my type.,taste
+S0356,2026-11-02,C,C27,P1738,rejected,Bio was too generic.,presentation
+S0357,2026-11-02,C,C29,P1692,rejected,Not my type.,taste
+S0358,2026-11-02,C,C29,P1808,rejected,Looks-wise not for me.,taste
+S0359,2026-11-02,C,C30,P1709,rejected,Looks-wise not for me.,taste
+S0360,2026-11-02,D,C33,P1888,rejected,"Not okay with smoking, I mentioned this on our first call.",avoidable
+S0361,2026-11-02,D,C34,P2032,rejected,Seems a bit arrogant from the bio.,taste
+S0362,2026-11-02,D,C36,P1851,meeting_completed,,
+S0363,2026-11-02,D,C36,P1912,rejected,Height is an issue.,avoidable
+S0364,2026-11-02,D,C37,P2010,rejected,"The bio is empty, I can't tell anything about her.",presentation
+S0365,2026-11-02,D,C39,P1889,rejected,Education level doesn't match what I asked for.,avoidable
+S0366,2026-11-02,D,C40,P1930,rejected,"No spark, sorry.",taste
+S0367,2026-11-03,A,C01,P1134,contact_shared,,
+S0368,2026-11-03,A,C01,P1155,rejected,"Child-free isn't for me, I want a family.",avoidable
+S0369,2026-11-03,A,C01,P1202,rejected,Not interested.,vague
+S0370,2026-11-03,A,C05,P1161,rejected,"She doesn't want kids, that's non-negotiable for me.",avoidable
+S0371,2026-11-03,A,C06,P1189,rejected,"Not keen on someone in medicine, the hours are crazy.",new_pref
+S0372,2026-11-03,A,C08,P1209,rejected,Not feeling it.,vague
+S0373,2026-11-03,A,C08,P1222,rejected,Height matters to me more than I thought.,new_pref
+S0374,2026-11-03,B,C12,P1403,rejected,"Bit too young for me, I think.",avoidable
+S0375,2026-11-03,B,C12,P1473,rejected,Not drawn to his profile.,taste
+S0376,2026-11-03,B,C14,P1303,conversation,,
+S0377,2026-11-03,B,C14,P1507,rejected,Not feeling it.,vague
+S0378,2026-11-03,B,C15,P1309,conversation,,
+S0379,2026-11-03,B,C15,P1319,contact_shared,,
+S0380,2026-11-03,B,C15,P1433,rejected,"She is Christian, I'd asked for Sikh only.",avoidable
+S0381,2026-11-03,B,C16,P1358,rejected,Height is an issue.,avoidable
+S0382,2026-11-03,B,C17,P1545,rejected,"Busy with a work launch, send me profiles next month.",timing
+S0383,2026-11-03,B,C18,P1451,rejected,Nope.,vague
+S0384,2026-11-03,B,C19,P1466,rejected,Not drawn to his profile.,taste
+S0385,2026-11-03,B,C20,P1455,rejected,Comes across as too serious.,taste
+S0386,2026-11-03,C,C22,P1764,rejected,Not drawn to her profile.,taste
+S0387,2026-11-03,C,C22,P1809,rejected,Pass.,vague
+S0388,2026-11-03,C,C25,P1731,rejected,Not interested.,vague
+S0389,2026-11-03,C,C26,P1569,accepted,,
+S0390,2026-11-03,C,C26,P1735,rejected,Not for me.,vague
+S0391,2026-11-03,C,C28,P1593,conversation,,
+S0392,2026-11-03,C,C29,P1775,rejected,"The photos are very dark, I can't tell.",presentation
+S0393,2026-11-03,D,C31,P1854,meeting_completed,,
+S0394,2026-11-03,D,C32,P2024,rejected,"He lives with his parents in a big joint family, not sure about that.",new_pref
+S0395,2026-11-03,D,C33,P1940,rejected,Not ambitious enough for me.,taste
+S0396,2026-11-03,D,C34,P2002,rejected,Can we revisit after Diwali?,timing
+S0397,2026-11-03,D,C35,P2030,rejected,No.,vague
+S0398,2026-11-03,D,C36,P1975,rejected,Can you share more pics? Hard to decide.,presentation
+S0399,2026-11-03,D,C36,P2038,rejected,Seems a bit arrogant from the bio.,taste
+S0400,2026-11-03,D,C38,P1811,contact_shared,,
+S0401,2026-11-03,D,C39,P1891,rejected,"Non-veg, not compatible with my family.",avoidable
+S0402,2026-11-04,A,C01,P1083,accepted,,
+S0403,2026-11-04,A,C02,P1146,rejected,"He's settled in New York, I want to stay in India.",avoidable
+S0404,2026-11-04,A,C03,P1044,conversation,,
+S0405,2026-11-04,A,C04,P1092,contact_shared,,
+S0406,2026-11-04,A,C04,P1126,accepted,,
+S0407,2026-11-04,A,C04,P1232,rejected,"She lives with her parents in a big joint family, not sure about that.",new_pref
+S0408,2026-11-04,A,C05,P1203,rejected,"I'm talking to someone right now, can we pause for two weeks?",timing
+S0409,2026-11-04,A,C06,P1173,rejected,"Travelling this month, please hold off.",timing
+S0410,2026-11-04,A,C07,P1181,rejected,"Travelling this month, please hold off.",timing
+S0411,2026-11-04,A,C08,P1121,accepted,,
+S0412,2026-11-04,A,C10,P1214,rejected,Joint family isn't for me.,new_pref
+S0413,2026-11-04,B,C13,P1353,rejected,She smokes. I'd clearly said no smokers.,avoidable
+S0414,2026-11-04,B,C13,P1362,rejected,Lives in Pune and won't relocate. Long distance won't work.,avoidable
+S0415,2026-11-04,B,C13,P1443,rejected,Not open to someone previously married.,avoidable
+S0416,2026-11-04,B,C14,P1414,rejected,She smokes. I'd clearly said no smokers.,avoidable
+S0417,2026-11-04,B,C15,P1376,rejected,"She eats meat, we're pure veg at home.",avoidable
+S0418,2026-11-04,B,C16,P1481,rejected,Not for me.,vague
+S0419,2026-11-04,B,C19,P1274,accepted,,
+S0420,2026-11-04,B,C20,P1325,rejected,"She's a investment banker, that's a 24x7 job. I'd mentioned this on the call.",avoidable
+S0421,2026-11-04,C,C21,P1630,contact_shared,,
+S0422,2026-11-04,C,C23,P1712,rejected,I'd rather not marry a doctor.,new_pref
+S0423,2026-11-04,C,C23,P1724,rejected,"Photos are blurry, can you get better ones?",presentation
+S0424,2026-11-04,C,C24,P1573,accepted,,
+S0425,2026-11-04,C,C25,P1571,accepted,,
+S0426,2026-11-04,C,C26,P1636,conversation,,
+S0427,2026-11-04,C,C26,P1730,rejected,Not ambitious enough for me.,taste
+S0428,2026-11-04,C,C26,P1786,rejected,Not drawn to her profile.,taste
+S0429,2026-11-04,C,C27,P1689,rejected,"She doesn't want kids, that's non-negotiable for me.",avoidable
+S0430,2026-11-04,C,C28,P1792,rejected,"I'm talking to someone right now, can we pause for two weeks?",timing
+S0431,2026-11-04,D,C31,P1936,rejected,Pass.,vague
+S0432,2026-11-04,D,C32,P1941,rejected,Looks-wise not for me.,taste
+S0433,2026-11-04,D,C34,P1841,meeting_completed,,
+S0434,2026-11-04,D,C36,P1832,conversation,,
+S0435,2026-11-04,D,C38,P1907,rejected,Height is an issue.,avoidable
+S0436,2026-11-04,D,C39,P1959,rejected,Didn't feel any attraction from the photos.,taste
+S0437,2026-11-04,D,C39,P1978,rejected,Pass.,vague
+S0438,2026-11-04,D,C40,P1915,rejected,"She eats meat, we're pure veg at home.",avoidable
+S0439,2026-11-04,D,C40,P1958,rejected,Not this one.,vague
+S0440,2026-11-05,A,C02,P1097,conversation,,
+S0441,2026-11-05,A,C02,P1193,rejected,Not this one.,vague
+S0442,2026-11-05,A,C03,P1255,rejected,"Feels very introverted, I'm quite outgoing.",taste
+S0443,2026-11-05,A,C05,P1174,rejected,Not feeling it.,vague
+S0444,2026-11-05,A,C07,P1119,meeting_completed,,
+S0445,2026-11-05,A,C07,P1224,rejected,Can you share more pics? Hard to decide.,presentation
+S0446,2026-11-05,A,C10,P1171,rejected,Didn't feel any attraction from the photos.,taste
+S0447,2026-11-05,A,C10,P1239,rejected,Comes across as too serious.,taste
+S0448,2026-11-05,B,C12,P1333,rejected,We want different things on children.,avoidable
+S0449,2026-11-05,B,C12,P1446,rejected,Pass.,vague
+S0450,2026-11-05,B,C12,P1506,rejected,"Not keen on someone in law, the hours are crazy.",new_pref
+S0451,2026-11-05,B,C14,P1369,rejected,"She's in medicine, I told you I'm not keen on that.",avoidable
+S0452,2026-11-05,B,C18,P1460,rejected,"No spark, sorry.",taste
+S0453,2026-11-05,B,C18,P1491,rejected,"Hmm, no.",vague
+S0454,2026-11-05,B,C19,P1432,rejected,I don't drink and want someone who doesn't either.,avoidable
+S0455,2026-11-05,C,C23,P1770,rejected,"Busy with a work launch, send me profiles next month.",timing
+S0456,2026-11-05,C,C25,P1717,rejected,Would like someone a bit taller.,new_pref
+S0457,2026-11-05,C,C25,P1776,rejected,No.,vague
+S0458,2026-11-05,C,C28,P1783,rejected,Seems a bit arrogant from the bio.,taste
+S0459,2026-11-05,D,C32,P1911,rejected,"Different religion, my family won't be okay with it.",avoidable
+S0460,2026-11-05,D,C34,P1922,rejected,Profile says he smokes. Not for me.,avoidable
+S0461,2026-11-05,D,C36,P1928,rejected,Joint family isn't for me.,new_pref
+S0462,2026-11-05,D,C37,P1937,rejected,Can you share more pics? Hard to decide.,presentation
+S0463,2026-11-05,D,C40,P1834,conversation,,
+S0464,2026-11-06,A,C03,P1061,accepted,,
+S0465,2026-11-06,A,C06,P1150,rejected,Lives in Delhi NCR and won't relocate. Long distance won't work.,avoidable
+S0466,2026-11-06,A,C06,P1212,rejected,Comes across as too serious.,taste
+S0467,2026-11-06,A,C07,P1091,meeting_completed,,
+S0468,2026-11-06,A,C09,P1078,conversation,,
+S0469,2026-11-06,A,C09,P1225,rejected,"Busy with a work launch, send me profiles next month.",timing
+S0470,2026-11-06,B,C11,P1475,rejected,"Travelling this month, please hold off.",timing
+S0471,2026-11-06,B,C11,P1520,rejected,Not ambitious enough for me.,taste
+S0472,2026-11-06,B,C15,P1449,rejected,Not my type.,taste
+S0473,2026-11-06,B,C16,P1401,rejected,"Non-veg, not compatible with my family.",avoidable
+S0474,2026-11-06,B,C17,P1266,accepted,,
+S0475,2026-11-06,B,C17,P1287,conversation,,
+S0476,2026-11-06,B,C18,P1330,rejected,"Different religion, my family won't be okay with it.",avoidable
+S0477,2026-11-06,B,C19,P1480,rejected,I'd really prefer someone in Pune.,new_pref
+S0478,2026-11-06,B,C20,P1416,rejected,"Different religion, my family won't be okay with it.",avoidable
+S0479,2026-11-06,C,C22,P1582,contact_shared,,
+S0480,2026-11-06,C,C22,P1648,rejected,I wanted someone shorter.,avoidable
+S0481,2026-11-06,C,C22,P1733,rejected,Comes across as too serious.,taste
+S0482,2026-11-06,C,C29,P1564,meeting_fixed,,
+S0483,2026-11-06,C,C29,P1589,contact_shared,,
+S0484,2026-11-06,D,C32,P1991,rejected,I'd rather not marry a lawyer.,new_pref
+S0485,2026-11-06,D,C33,P1913,rejected,Profile says she smokes. Not for me.,avoidable
+S0486,2026-11-06,D,C37,P1935,rejected,Seems a bit arrogant from the bio.,taste
+S0487,2026-11-06,D,C39,P2037,rejected,"Busy with a work launch, send me profiles next month.",timing
+S0488,2026-11-06,D,C40,P1944,rejected,Seems a bit arrogant from the bio.,taste
+S0489,2026-11-07,A,C01,P1176,rejected,"The photos are very dark, I can't tell.",presentation
+S0490,2026-11-07,A,C03,P1145,rejected,"Child-free isn't for me, I want a family.",avoidable
+S0491,2026-11-07,A,C03,P1187,rejected,Not ambitious enough for me.,taste
+S0492,2026-11-07,A,C06,P1237,rejected,Comes across as too serious.,taste
+S0493,2026-11-07,B,C12,P1415,rejected,He smokes. I'd clearly said no smokers.,avoidable
+S0494,2026-11-07,B,C14,P1530,rejected,Can we revisit after Diwali?,timing
+S0495,2026-11-07,B,C18,P1363,rejected,"Different city, and she isn't open to moving.",avoidable
+S0496,2026-11-07,B,C18,P1406,rejected,"She is Christian, I'd asked for Hindu only.",avoidable
+S0497,2026-11-07,C,C21,P1715,rejected,Can we revisit after Diwali?,timing
+S0498,2026-11-07,C,C22,P1708,rejected,Can you share more pics? Hard to decide.,presentation
+S0499,2026-11-07,C,C22,P1773,rejected,"I'm talking to someone right now, can we pause for two weeks?",timing
+S0500,2026-11-07,C,C25,P2065,conversation,,
+S0501,2026-11-07,C,C25,P1623,conversation,,
+S0502,2026-11-07,C,C26,P1650,rejected,"Not okay with smoking, I mentioned this on our first call.",avoidable
+S0503,2026-11-07,C,C27,P1706,rejected,Not drawn to her profile.,taste
+S0504,2026-11-07,C,C29,P1695,rejected,"Travelling this month, please hold off.",timing
+S0505,2026-11-07,D,C31,P1929,rejected,"Photos are blurry, can you get better ones?",presentation
+S0506,2026-11-07,D,C32,P2017,rejected,Can we revisit after Diwali?,timing
+S0507,2026-11-07,D,C33,P1903,rejected,"Bit too young for me, I think.",avoidable
+S0508,2026-11-07,D,C33,P1954,rejected,I'd rather not marry a doctor.,new_pref
+S0509,2026-11-07,D,C34,P1950,rejected,"Hmm, no.",vague
+S0510,2026-11-07,D,C37,P1821,accepted,,
+S0511,2026-11-07,D,C38,P1925,rejected,Lives in Mumbai and won't relocate. Long distance won't work.,avoidable
+S0512,2026-11-07,D,C38,P1948,rejected,Comes across as too serious.,taste
+S0513,2026-11-07,D,C39,P1931,rejected,"Busy with a work launch, send me profiles next month.",timing
+S0514,2026-11-08,A,C02,P1065,meeting_completed,,
+S0515,2026-11-08,A,C04,P1253,rejected,Can we revisit after Diwali?,timing
+S0516,2026-11-08,A,C06,P1064,meeting_fixed,,
+S0517,2026-11-08,A,C06,P1244,rejected,Not drawn to her profile.,taste
+S0518,2026-11-08,A,C08,P1188,rejected,"Feels very introverted, I'm quite outgoing.",taste
+S0519,2026-11-08,A,C10,P1077,meeting_fixed,,
+S0520,2026-11-08,B,C12,P1402,rejected,"Not okay with smoking, I mentioned this on our first call.",avoidable
+S0521,2026-11-08,B,C16,P1558,rejected,Looks-wise not for me.,taste
+S0522,2026-11-08,B,C20,P1468,rejected,Seems a bit arrogant from the bio.,taste
+S0523,2026-11-08,B,C20,P1501,rejected,"Not ready this week, work is crazy.",timing
+S0524,2026-11-08,C,C21,P1572,accepted,,
+S0525,2026-11-08,C,C21,P2054,conversation,,
+S0526,2026-11-08,C,C23,P1644,rejected,"Would really prefer a Hindi speaker, my parents don't speak much English.",avoidable
+S0527,2026-11-08,C,C23,P1794,rejected,I'd rather not marry a lawyer.,new_pref
+S0528,2026-11-08,C,C25,P1570,accepted,,
+S0529,2026-11-08,C,C26,P1696,rejected,"Feels very introverted, I'm quite outgoing.",taste
+S0530,2026-11-08,C,C29,P1562,accepted,,
+S0531,2026-11-08,C,C29,P1631,accepted,,
+S0532,2026-11-08,C,C30,P1576,accepted,,
+S0533,2026-11-08,C,C30,P1592,contact_shared,,
+S0534,2026-11-08,D,C33,P1820,accepted,,
+S0535,2026-11-08,D,C33,P1927,rejected,"Non-veg, not compatible with my family.",avoidable
+S0536,2026-11-08,D,C35,P1898,rejected,"Second marriage, not what I'm looking for.",avoidable
+S0537,2026-11-08,D,C37,P2011,rejected,Not feeling it.,vague
+S0538,2026-11-08,D,C38,P1969,rejected,Only one photo and it's old.,presentation
+S0539,2026-11-08,D,C40,P1966,rejected,"She's settled in Singapore, I don't want to move abroad.",new_pref
+S0540,2026-11-09,A,C02,P2051,conversation,,
+S0541,2026-11-09,A,C02,P1175,rejected,"The bio is empty, I can't tell anything about him.",presentation
+S0542,2026-11-09,A,C04,P1085,conversation,,
+S0543,2026-11-09,A,C04,P1177,rejected,No.,vague
+S0544,2026-11-09,A,C08,P1084,contact_shared,,
+S0545,2026-11-09,A,C08,P1129,meeting_fixed,,
+S0546,2026-11-09,A,C08,P1149,rejected,"Inter-faith won't work for us, sorry.",avoidable
+S0547,2026-11-09,A,C08,P1200,rejected,"Travelling this month, please hold off.",timing
+S0548,2026-11-09,A,C10,P1127,conversation,,
+S0549,2026-11-09,B,C12,P1273,accepted,,
+S0550,2026-11-09,B,C12,P2042,accepted,,
+S0551,2026-11-09,B,C16,P1537,rejected,Nope.,vague
+S0552,2026-11-09,B,C17,P1312,conversation,,
+S0553,2026-11-09,B,C17,P1355,rejected,We want different things on children.,avoidable
+S0554,2026-11-09,B,C17,P1382,rejected,"Inter-faith won't work for us, sorry.",avoidable
+S0555,2026-11-09,B,C17,P1474,rejected,"Hmm, no.",vague
+S0556,2026-11-09,B,C19,P1283,contact_shared,,
+S0557,2026-11-09,B,C19,P1360,rejected,"Different religion, my family won't be okay with it.",avoidable
+S0558,2026-11-09,C,C24,P1739,rejected,"She lives with her parents in a big joint family, not sure about that.",new_pref
+S0559,2026-11-09,C,C24,P1769,rejected,Looks-wise not for me.,taste
+S0560,2026-11-09,C,C25,P1637,conversation,,
+S0561,2026-11-09,C,C26,P1681,rejected,"Too old for me, I said up to 31.",avoidable
+S0562,2026-11-09,C,C26,P1803,rejected,"Not ready this week, work is crazy.",timing
+S0563,2026-11-09,C,C27,P1746,rejected,"I'm talking to someone right now, can we pause for two weeks?",timing
+S0564,2026-11-09,C,C29,P1625,conversation,,
+S0565,2026-11-09,D,C31,P1830,meeting_completed,,
+S0566,2026-11-09,D,C31,P2013,rejected,Pass.,vague
+S0567,2026-11-09,D,C32,P1829,conversation,,
+S0568,2026-11-09,D,C35,P1926,rejected,Not open to someone previously married.,avoidable
+S0569,2026-11-09,D,C35,P1973,rejected,"I'm talking to someone right now, can we pause for two weeks?",timing
+S0570,2026-11-09,D,C37,P1947,rejected,Seems a bit arrogant from the bio.,taste
+S0571,2026-11-09,D,C38,P1844,conversation,,
+S0572,2026-11-09,D,C38,P1997,rejected,"Not keen on someone in finance, the hours are crazy.",new_pref
+S0573,2026-11-09,D,C38,P2016,rejected,"Busy with a work launch, send me profiles next month.",timing
+S0574,2026-11-09,D,C39,P1916,rejected,A little young for me.,avoidable
+S0575,2026-11-10,A,C02,P1103,contact_shared,,
+S0576,2026-11-10,A,C03,P1094,contact_shared,,
+S0577,2026-11-10,A,C05,P1124,meeting_fixed,,
+S0578,2026-11-10,A,C06,P1050,accepted,,
+S0579,2026-11-10,A,C06,P1095,contact_shared,,
+S0580,2026-11-10,A,C06,P1184,rejected,No.,vague
+S0581,2026-11-10,A,C07,P1153,rejected,Education level doesn't match what I asked for.,avoidable
+S0582,2026-11-10,B,C12,P1305,contact_shared,,
+S0583,2026-11-10,B,C13,P1327,rejected,"I'm looking within my community, as I said.",avoidable
+S0584,2026-11-10,B,C13,P1542,rejected,Not feeling it.,vague
+S0585,2026-11-10,B,C14,P1543,rejected,"I'm talking to someone right now, can we pause for two weeks?",timing
+S0586,2026-11-10,B,C15,P1395,rejected,I wanted someone shorter.,avoidable
+S0587,2026-11-10,B,C16,P1328,rejected,Not open to someone previously married.,avoidable
+S0588,2026-11-10,B,C17,P1347,rejected,"Child-free isn't for me, I want a family.",avoidable
+S0589,2026-11-10,B,C17,P1373,rejected,"He eats meat, we're pure veg at home.",avoidable
+S0590,2026-11-10,B,C17,P1499,rejected,I'd really prefer someone in Delhi NCR.,new_pref
+S0591,2026-11-10,B,C17,P1532,rejected,Can we revisit after Diwali?,timing
+S0592,2026-11-10,C,C25,P1643,rejected,He smokes. I'd clearly said no smokers.,avoidable
+S0593,2026-11-10,C,C26,P1796,rejected,"Not ready this week, work is crazy.",timing
+S0594,2026-11-10,C,C27,P1639,conversation,,
+S0595,2026-11-10,C,C27,P1758,rejected,"Feels very introverted, I'm quite outgoing.",taste
+S0596,2026-11-10,C,C27,P1790,rejected,Can we revisit after Diwali?,timing
+S0597,2026-11-10,C,C28,P1683,rejected,"Non-veg, not compatible with my family.",avoidable
+S0598,2026-11-10,C,C29,P1691,rejected,"Busy with a work launch, send me profiles next month.",timing
+S0599,2026-11-10,D,C32,P1932,rejected,Not interested.,vague
+S0600,2026-11-10,D,C33,P1855,meeting_fixed,,
+S0601,2026-11-10,D,C33,P1892,rejected,"Not okay with smoking, I mentioned this on our first call.",avoidable
+S0602,2026-11-10,D,C34,P1934,rejected,"Hmm, no.",vague
+S0603,2026-11-10,D,C35,P1914,rejected,He smokes. I'd clearly said no smokers.,avoidable
+S0604,2026-11-10,D,C37,P1964,rejected,Not interested.,vague
+S0605,2026-11-10,D,C38,P1968,rejected,Seems a bit arrogant from the bio.,taste
+S0606,2026-11-10,D,C39,P1836,conversation,,
+S0607,2026-11-10,D,C40,P1902,rejected,"Second marriage, not what I'm looking for.",avoidable
+S0608,2026-11-10,D,C40,P1917,rejected,"Non-veg, not compatible with my family.",avoidable
+S0609,2026-11-10,D,C40,P2022,rejected,Can we revisit after Diwali?,timing
+S0610,2026-11-11,A,C01,P1056,accepted,,
+S0611,2026-11-11,A,C01,P1063,conversation,,
+S0612,2026-11-11,A,C02,P1249,rejected,Nope.,vague
+S0613,2026-11-11,A,C04,P1199,rejected,Not this one.,vague
+S0614,2026-11-11,A,C05,P1257,rejected,Seems a bit arrogant from the bio.,taste
+S0615,2026-11-11,A,C07,P2044,conversation,,
+S0616,2026-11-11,A,C07,P1156,rejected,"He's in law, I told you I'm not keen on that.",avoidable
+S0617,2026-11-11,A,C07,P1259,rejected,"The bio is empty, I can't tell anything about him.",presentation
+S0618,2026-11-11,A,C08,P1072,accepted,,
+S0619,2026-11-11,B,C11,P1410,rejected,Age gap is too big.,avoidable
+S0620,2026-11-11,B,C13,P1494,rejected,I'd rather not marry a investment banker.,new_pref
+S0621,2026-11-11,B,C14,P1471,rejected,No.,vague
+S0622,2026-11-11,B,C14,P1555,rejected,"Not ready this week, work is crazy.",timing
+S0623,2026-11-11,B,C15,P1375,rejected,Not open to someone previously married.,avoidable
+S0624,2026-11-11,B,C16,P1289,conversation,,
+S0625,2026-11-11,B,C16,P1339,rejected,"I'm looking within my community, as I said.",avoidable
+S0626,2026-11-11,B,C16,P1371,rejected,Height is an issue.,avoidable
+S0627,2026-11-11,B,C16,P1434,rejected,I need someone in Delhi NCR.,avoidable
+S0628,2026-11-11,B,C17,P1278,contact_shared,,
+S0629,2026-11-11,B,C17,P1397,rejected,"Too short for me, I'd asked for 175 cm plus.",avoidable
+S0630,2026-11-11,B,C19,P1428,rejected,"Too old for me, I said up to 33.",avoidable
+S0631,2026-11-11,B,C20,P1535,rejected,Nope.,vague
+S0632,2026-11-11,C,C23,P1596,meeting_completed,,
+S0633,2026-11-11,C,C23,P1800,rejected,Not interested.,vague
+S0634,2026-11-11,C,C24,P1606,accepted,,
+S0635,2026-11-11,C,C25,P1597,meeting_fixed,,
+S0636,2026-11-11,C,C25,P1736,rejected,I'd rather not marry a lawyer.,new_pref
+S0637,2026-11-11,D,C33,P1967,rejected,Looks-wise not for me.,taste
+S0638,2026-11-11,D,C34,P1886,rejected,We want different things on children.,avoidable
+S0639,2026-11-11,D,C35,P1946,rejected,Long distance won't work for me.,new_pref
+S0640,2026-11-11,D,C37,P1883,rejected,"Investment Banker, the hours won't work for me. I'd mentioned this.",avoidable
+S0641,2026-11-11,D,C38,P1866,contact_shared,,
+S0642,2026-11-11,D,C40,P1909,rejected,"Inter-faith won't work for us, sorry.",avoidable
+S0643,2026-11-12,A,C01,P1217,rejected,Joint family isn't for me.,new_pref
+S0644,2026-11-12,A,C02,P1133,accepted,,
+S0645,2026-11-12,A,C04,P1043,meeting_fixed,,
+S0646,2026-11-12,A,C04,P2041,accepted,,
+S0647,2026-11-12,A,C04,P1159,rejected,"Not okay with smoking, I mentioned this on our first call.",avoidable
+S0648,2026-11-12,A,C05,P1141,rejected,"Saw a cigarette in one of the photos, that is a no for me.",avoidable
+S0649,2026-11-12,A,C07,P1052,accepted,,
+S0650,2026-11-12,A,C07,P1115,accepted,,
+S0651,2026-11-12,A,C07,P1211,rejected,Looks-wise not for me.,taste
+S0652,2026-11-12,A,C10,P1140,rejected,"Too short for me, I'd asked for 172 cm plus.",avoidable
+S0653,2026-11-12,B,C11,P1313,accepted,,
+S0654,2026-11-12,B,C12,P1365,rejected,"Saw a cigarette in one of the photos, that is a no for me.",avoidable
+S0655,2026-11-12,B,C12,P1377,rejected,We want different things on children.,avoidable
+S0656,2026-11-12,B,C12,P1528,rejected,Seems a bit flashy.,taste
+S0657,2026-11-12,B,C12,P1533,rejected,"Not ready this week, work is crazy.",timing
+S0658,2026-11-12,B,C13,P1431,rejected,I don't drink and want someone who doesn't either.,avoidable
+S0659,2026-11-12,B,C14,P1276,contact_shared,,
+S0660,2026-11-12,B,C14,P1483,rejected,Can you share more pics? Hard to decide.,presentation
+S0661,2026-11-12,B,C15,P1345,rejected,Height is an issue.,avoidable
+S0662,2026-11-12,B,C15,P1393,rejected,"She was married before, I'd asked for never married.",avoidable
+S0663,2026-11-12,B,C16,P1461,rejected,"No spark, sorry.",taste
+S0664,2026-11-12,B,C16,P1498,rejected,"Not keen on someone in consulting, the hours are crazy.",new_pref
+S0665,2026-11-12,B,C18,P1529,rejected,Can we revisit after Diwali?,timing
+S0666,2026-11-12,C,C22,P1687,rejected,"She eats meat, we're pure veg at home.",avoidable
+S0667,2026-11-12,C,C22,P1761,rejected,Can we revisit after Diwali?,timing
+S0668,2026-11-12,C,C23,P1714,rejected,I'd really prefer someone in Bengaluru.,new_pref
+S0669,2026-11-12,C,C25,P1688,rejected,"Not okay with smoking, I mentioned this on our first call.",avoidable
+S0670,2026-11-12,C,C26,P1672,rejected,Not open to someone previously married.,avoidable
+S0671,2026-11-12,C,C27,P1561,meeting_completed,,
+S0672,2026-11-12,C,C27,P1727,rejected,Not this one.,vague
+S0673,2026-11-12,C,C30,P1616,accepted,,
+S0674,2026-11-12,D,C31,P1813,accepted,,
+S0675,2026-11-12,D,C35,P1896,rejected,We want different things on children.,avoidable
+S0676,2026-11-12,D,C38,P2034,rejected,"I'm talking to someone right now, can we pause for two weeks?",timing
+S0677,2026-11-12,D,C39,P1839,accepted,,
+S0678,2026-11-12,D,C39,P1945,rejected,"No spark, sorry.",taste
+S0679,2026-11-12,D,C40,P1990,rejected,Not ambitious enough for me.,taste
+S0680,2026-11-12,D,C40,P1998,rejected,"Not ready this week, work is crazy.",timing
+S0681,2026-11-13,A,C01,P1117,meeting_completed,,
+S0682,2026-11-13,A,C02,P1053,accepted,,
+S0683,2026-11-13,A,C04,P1165,rejected,"Not ready this week, work is crazy.",timing
+S0684,2026-11-13,A,C04,P1238,rejected,Can we revisit after Diwali?,timing
+S0685,2026-11-13,A,C05,P2047,meeting_fixed,,
+S0686,2026-11-13,A,C06,P1207,rejected,"I'm talking to someone right now, can we pause for two weeks?",timing
+S0687,2026-11-13,A,C07,P1045,meeting_completed,,
+S0688,2026-11-13,A,C07,P1195,rejected,Seems a bit arrogant from the bio.,taste
+S0689,2026-11-13,A,C10,P1164,rejected,"No spark, sorry.",taste
+S0690,2026-11-13,B,C12,P1361,rejected,Profile says he smokes. Not for me.,avoidable
+S0691,2026-11-13,B,C12,P1489,rejected,"Hmm, no.",vague
+S0692,2026-11-13,B,C12,P1513,rejected,Not my type.,taste
+S0693,2026-11-13,B,C13,P1340,rejected,Too much of a party person for me.,avoidable
+S0694,2026-11-13,B,C13,P1445,rejected,Would prefer someone a bit shorter.,new_pref
+S0695,2026-11-13,B,C13,P1531,rejected,"The photos are very dark, I can't tell.",presentation
+S0696,2026-11-13,B,C18,P1484,rejected,Height matters to me more than I thought.,new_pref
+S0697,2026-11-13,B,C20,P1277,accepted,,
+S0698,2026-11-13,B,C20,P1286,accepted,,
+S0699,2026-11-13,C,C22,P1669,rejected,"33 is a bit much, I'd asked up to 31.",avoidable
+S0700,2026-11-13,C,C24,P1694,rejected,No.,vague
+S0701,2026-11-13,C,C26,P1590,accepted,,
+S0702,2026-11-13,C,C26,P1638,conversation,,
+S0703,2026-11-13,C,C27,P1655,rejected,"Not okay with smoking, I mentioned this on our first call.",avoidable
+S0704,2026-11-13,C,C28,P1749,rejected,Can we revisit after Diwali?,timing
+S0705,2026-11-13,C,C29,P1747,rejected,No.,vague
+S0706,2026-11-13,C,C30,P1690,rejected,Education level doesn't match what I asked for.,avoidable
+S0707,2026-11-13,D,C31,P1863,conversation,,
+S0708,2026-11-13,D,C31,P2028,rejected,"Busy with a work launch, send me profiles next month.",timing
+S0709,2026-11-13,D,C35,P1890,rejected,Language would be a barrier with my family.,avoidable
+S0710,2026-11-13,D,C38,P1819,accepted,,
+S0711,2026-11-13,D,C38,P1878,meeting_completed,,
+S0712,2026-11-13,D,C39,P2026,rejected,"The bio is empty, I can't tell anything about him.",presentation
+S0713,2026-11-14,A,C02,P1170,rejected,"He lives with his parents in a big joint family, not sure about that.",new_pref
+S0714,2026-11-14,A,C03,P1197,rejected,"He's settled in Singapore, I don't want to move abroad.",new_pref
+S0715,2026-11-14,A,C03,P1205,rejected,Long distance won't work for me.,new_pref
+S0716,2026-11-14,A,C05,P1182,rejected,"She's settled in New York, I don't want to move abroad.",new_pref
+S0717,2026-11-14,A,C05,P1228,rejected,Not ambitious enough for me.,taste
+S0718,2026-11-14,A,C07,P1106,conversation,,
+S0719,2026-11-14,A,C09,P1158,rejected,"Non-veg, not compatible with my family.",avoidable
+S0720,2026-11-14,A,C09,P1162,rejected,I need someone in Mumbai.,avoidable
+S0721,2026-11-14,B,C13,P1262,meeting_fixed,,
+S0722,2026-11-14,B,C13,P1272,accepted,,
+S0723,2026-11-14,B,C13,P1514,rejected,Didn't feel any attraction from the photos.,taste
+S0724,2026-11-14,B,C16,P1390,rejected,I'm strictly vegetarian and need a vegetarian partner.,avoidable
+S0725,2026-11-14,B,C17,P1291,conversation,,
+S0726,2026-11-14,B,C18,P1476,rejected,Looks-wise not for me.,taste
+S0727,2026-11-14,B,C20,P1454,rejected,Seems a bit flashy.,taste
+S0728,2026-11-14,C,C21,P2055,accepted,,
+S0729,2026-11-14,C,C21,P1621,contact_shared,,
+S0730,2026-11-14,C,C21,P1660,rejected,Height is an issue.,avoidable
+S0731,2026-11-14,C,C21,P1754,rejected,"Feels very introverted, I'm quite outgoing.",taste
+S0732,2026-11-14,C,C22,P1668,rejected,I need someone in Hyderabad.,avoidable
+S0733,2026-11-14,C,C22,P1716,rejected,"Profile is very thin, barely any info.",presentation
+S0734,2026-11-14,C,C24,P1649,rejected,"Saw a cigarette in one of the photos, that is a no for me.",avoidable
+S0735,2026-11-14,C,C24,P1740,rejected,Comes across as too serious.,taste
+S0736,2026-11-14,C,C26,P1614,conversation,,
+S0737,2026-11-14,C,C26,P1750,rejected,Didn't feel any attraction from the photos.,taste
+S0738,2026-11-14,C,C27,P1673,rejected,"She doesn't want kids, that's non-negotiable for me.",avoidable
+S0739,2026-11-14,C,C28,P1806,rejected,Not feeling it.,vague
+S0740,2026-11-14,C,C30,P1755,rejected,"Not keen on someone in consulting, the hours are crazy.",new_pref
+S0741,2026-11-14,D,C32,P1867,contact_shared,,
+S0742,2026-11-14,D,C33,P1868,meeting_fixed,,
+S0743,2026-11-14,D,C34,P1920,rejected,"Too old for me, I said up to 39.",avoidable
+S0744,2026-11-14,D,C36,P1904,rejected,Age gap is too big.,avoidable
+S0745,2026-11-14,D,C36,P2012,rejected,Can we revisit after Diwali?,timing
+S0746,2026-11-14,D,C36,P2021,rejected,"Feels very introverted, I'm quite outgoing.",taste
+S0747,2026-11-14,D,C39,P1815,conversation,,
+S0748,2026-11-14,D,C39,P1875,accepted,,
+S0749,2026-11-15,A,C01,P1229,rejected,Seems a bit flashy.,taste
+S0750,2026-11-15,A,C02,P1131,conversation,,
+S0751,2026-11-15,A,C02,P1204,rejected,I'd rather not marry a doctor.,new_pref
+S0752,2026-11-15,A,C05,P1049,accepted,,
+S0753,2026-11-15,A,C05,P1080,contact_shared,,
+S0754,2026-11-15,A,C06,P2043,meeting_fixed,,
+S0755,2026-11-15,A,C06,P1142,rejected,She's taller than I'm comfortable with.,avoidable
+S0756,2026-11-15,A,C10,P1058,accepted,,
+S0757,2026-11-15,B,C12,P1366,rejected,"Too old for me, I said up to 33.",avoidable
+S0758,2026-11-15,B,C13,P1551,rejected,"Feels very introverted, I'm quite outgoing.",taste
+S0759,2026-11-15,B,C14,P1420,rejected,"35 is a bit much, I'd asked up to 33.",avoidable
+S0760,2026-11-15,B,C15,P1426,rejected,I wanted someone shorter.,avoidable
+S0761,2026-11-15,B,C15,P1487,rejected,Nope.,vague
+S0762,2026-11-15,B,C15,P1525,rejected,Can you share more pics? Hard to decide.,presentation
+S0763,2026-11-15,B,C16,P1549,rejected,"Not ready this week, work is crazy.",timing
+S0764,2026-11-15,B,C17,P1490,rejected,Comes across as too serious.,taste
+S0765,2026-11-15,B,C19,P1436,rejected,"Drinks regularly, not my thing.",avoidable
+S0766,2026-11-15,B,C20,P1348,rejected,"Different religion, my family won't be okay with it.",avoidable
+S0767,2026-11-15,C,C21,P1652,rejected,"Different religion, my family won't be okay with it.",avoidable
+S0768,2026-11-15,C,C22,P1686,rejected,I need someone in Hyderabad.,avoidable
+S0769,2026-11-15,C,C24,P1732,rejected,Looks-wise not for me.,taste
+S0770,2026-11-15,C,C24,P1802,rejected,Not drawn to her profile.,taste
+S0771,2026-11-15,C,C25,P1697,rejected,"Feels very introverted, I'm quite outgoing.",taste
+S0772,2026-11-15,C,C26,P1728,rejected,I'd rather not marry a lawyer.,new_pref
+S0773,2026-11-15,C,C29,P1713,rejected,"Feels very introverted, I'm quite outgoing.",taste
+S0774,2026-11-15,C,C30,P1805,rejected,Seems a bit arrogant from the bio.,taste
+S0775,2026-11-15,D,C31,P1899,rejected,"Inter-faith won't work for us, sorry.",avoidable
+S0776,2026-11-15,D,C31,P1986,rejected,"Feels very introverted, I'm quite outgoing.",taste
+S0777,2026-11-15,D,C32,P1972,rejected,Comes across as too serious.,taste
+S0778,2026-11-15,D,C35,P1984,rejected,"He's settled in New York, I don't want to move abroad.",new_pref
+S0779,2026-11-15,D,C37,P1843,conversation,,
+S0780,2026-11-15,D,C37,P1906,rejected,"She's 36, way older than what I asked for.",avoidable
+S0781,2026-11-15,D,C37,P1962,rejected,"No spark, sorry.",taste
+S0782,2026-11-15,D,C38,P1908,rejected,He smokes. I'd clearly said no smokers.,avoidable
+S0783,2026-11-15,D,C39,P1965,rejected,"Not ready this week, work is crazy.",timing
+S0784,2026-11-16,A,C01,P1090,contact_shared,,
+S0785,2026-11-16,A,C01,P1125,meeting_fixed,,
+S0786,2026-11-16,A,C03,P1128,contact_shared,,
+S0787,2026-11-16,A,C04,P1132,accepted,,
+S0788,2026-11-16,A,C05,P1096,accepted,,
+S0789,2026-11-16,A,C05,P1154,rejected,"Child-free isn't for me, I want a family.",avoidable
+S0790,2026-11-16,A,C06,P1120,contact_shared,,
+S0791,2026-11-16,A,C06,P1226,rejected,"Travelling this month, please hold off.",timing
+S0792,2026-11-16,A,C07,P1247,rejected,Can we revisit after Diwali?,timing
+S0793,2026-11-16,A,C08,P1169,rejected,Height matters to me more than I thought.,new_pref
+S0794,2026-11-16,A,C09,P1071,contact_shared,,
+S0795,2026-11-16,A,C09,P1172,rejected,Only one photo and it's old.,presentation
+S0796,2026-11-16,A,C09,P1206,rejected,"Profile is very thin, barely any info.",presentation
+S0797,2026-11-16,B,C13,P1349,rejected,A little young for me.,avoidable
+S0798,2026-11-16,B,C13,P1478,rejected,Seems a bit flashy.,taste
+S0799,2026-11-16,B,C14,P1453,rejected,"Feels very introverted, I'm quite outgoing.",taste
+S0800,2026-11-16,B,C15,P1269,accepted,,
+S0801,2026-11-16,B,C16,P1344,rejected,"He doesn't want kids, that's non-negotiable for me.",avoidable
+S0802,2026-11-16,B,C17,P1335,rejected,"He's in finance, I told you I'm not keen on that.",avoidable
+S0803,2026-11-16,B,C18,P1308,contact_shared,,
+S0804,2026-11-16,B,C19,P1448,rejected,Not drawn to his profile.,taste
+S0805,2026-11-16,C,C21,P1595,conversation,,
+S0806,2026-11-16,C,C24,P1565,accepted,,
+S0807,2026-11-16,C,C24,P1603,meeting_completed,,
+S0808,2026-11-16,C,C24,P1701,rejected,"She's settled in London, I don't want to move abroad.",new_pref
+S0809,2026-11-16,C,C25,P1666,rejected,"Too old for me, I said up to 29.",avoidable
+S0810,2026-11-16,C,C28,P1759,rejected,Would like someone a bit taller.,new_pref
+S0811,2026-11-16,C,C29,P1645,rejected,"She doesn't want kids, that's non-negotiable for me.",avoidable
+S0812,2026-11-16,C,C29,P1763,rejected,I'd rather not marry a investment banker.,new_pref
+S0813,2026-11-16,D,C33,P1999,rejected,Height matters to me more than I thought.,new_pref
+S0814,2026-11-16,D,C34,P1893,rejected,We want different things on children.,avoidable
+S0815,2026-11-16,D,C36,P1822,accepted,,
+S0816,2026-11-17,A,C01,P1250,rejected,Not ambitious enough for me.,taste
+S0817,2026-11-17,A,C03,P1114,meeting_fixed,,
+S0818,2026-11-17,A,C04,P1060,accepted,,
+S0819,2026-11-17,A,C05,P1139,rejected,"Too old for me, I said up to 40.",avoidable
+S0820,2026-11-17,A,C07,P1066,conversation,,
+S0821,2026-11-17,A,C09,P1062,accepted,,
+S0822,2026-11-17,A,C09,P1231,rejected,Can we revisit after Diwali?,timing
+S0823,2026-11-17,A,C10,P1112,accepted,,
+S0824,2026-11-17,B,C11,P1521,rejected,Only one photo and it's old.,presentation
+S0825,2026-11-17,B,C12,P1541,rejected,"I'm talking to someone right now, can we pause for two weeks?",timing
+S0826,2026-11-17,B,C13,P1307,meeting_completed,,
+S0827,2026-11-17,B,C13,P1381,rejected,Not open to someone previously married.,avoidable
+S0828,2026-11-17,B,C13,P1503,rejected,"No spark, sorry.",taste
+S0829,2026-11-17,B,C14,P1418,rejected,"Too old for me, I said up to 33.",avoidable
+S0830,2026-11-17,B,C14,P1447,rejected,"Hmm, no.",vague
+S0831,2026-11-17,B,C15,P1295,contact_shared,,
+S0832,2026-11-17,B,C16,P1292,conversation,,
+S0833,2026-11-17,B,C17,P1554,rejected,"Hmm, no.",vague
+S0834,2026-11-17,B,C20,P1391,rejected,"Different city, and she isn't open to moving.",avoidable
+S0835,2026-11-17,B,C20,P1508,rejected,"She lives with her parents in a big joint family, not sure about that.",new_pref
+S0836,2026-11-17,B,C20,P1550,rejected,Can you share more pics? Hard to decide.,presentation
+S0837,2026-11-17,C,C21,P1587,meeting_completed,,
+S0838,2026-11-17,C,C21,P1722,rejected,"He's settled in Singapore, I don't want to move abroad.",new_pref
+S0839,2026-11-17,C,C21,P1795,rejected,"Travelling this month, please hold off.",timing
+S0840,2026-11-17,C,C23,P1622,conversation,,
+S0841,2026-11-17,D,C32,P1918,rejected,"Non-veg, not compatible with my family.",avoidable
+S0842,2026-11-17,D,C33,P1833,accepted,,
+S0843,2026-11-17,D,C34,P1814,conversation,,
+S0844,2026-11-17,D,C36,P1870,conversation,,
+S0845,2026-11-17,D,C36,P1894,rejected,Too much of a party person for me.,avoidable
+S0846,2026-11-17,D,C38,P1884,rejected,"Different religion, my family won't be okay with it.",avoidable
+S0847,2026-11-17,D,C38,P2029,rejected,Bio was too generic.,presentation
+S0848,2026-11-17,D,C39,P2007,rejected,"Not ready this week, work is crazy.",timing
+S0849,2026-11-17,D,C39,P2020,rejected,"No spark, sorry.",taste
+S0850,2026-11-17,D,C40,P1818,meeting_completed,,
+S0851,2026-11-18,A,C03,P2064,conversation,,
+S0852,2026-11-18,A,C05,P1192,rejected,I'd rather not marry a lawyer.,new_pref
+S0853,2026-11-18,A,C06,P1075,meeting_fixed,,
+S0854,2026-11-18,A,C06,P1152,rejected,"Inter-faith won't work for us, sorry.",avoidable
+S0855,2026-11-18,A,C06,P1157,rejected,"She is Christian, I'd asked for Muslim or Jain only.",avoidable
+S0856,2026-11-18,A,C07,P1144,rejected,"I'm looking within my community, as I said.",avoidable
+S0857,2026-11-18,A,C07,P1201,rejected,Seems a bit flashy.,taste
+S0858,2026-11-18,A,C08,P1057,contact_shared,,
+S0859,2026-11-18,A,C09,P1216,rejected,Not interested.,vague
+S0860,2026-11-18,A,C10,P1186,rejected,No.,vague
+S0861,2026-11-18,B,C11,P1342,rejected,I wanted someone taller.,avoidable
+S0862,2026-11-18,B,C11,P1412,rejected,"He's in consulting, I told you I'm not keen on that.",avoidable
+S0863,2026-11-18,B,C11,P1427,rejected,"Would really prefer a Bengali speaker, my parents don't speak much English.",avoidable
+S0864,2026-11-18,B,C11,P1479,rejected,"Not ready this week, work is crazy.",timing
+S0865,2026-11-18,B,C15,P1293,accepted,,
+S0866,2026-11-18,B,C15,P1510,rejected,Nope.,vague
+S0867,2026-11-18,B,C16,P1322,accepted,,
+S0868,2026-11-18,B,C16,P1370,rejected,Lives in Hyderabad and won't relocate. Long distance won't work.,avoidable
+S0869,2026-11-18,B,C17,P1421,rejected,"Saw a cigarette in one of the photos, that is a no for me.",avoidable
+S0870,2026-11-18,B,C18,P1398,rejected,Slightly older than I wanted.,avoidable
+S0871,2026-11-18,B,C19,P1411,rejected,"Second marriage, not what I'm looking for.",avoidable
+S0872,2026-11-18,B,C20,P1511,rejected,Didn't feel any attraction from the photos.,taste
+S0873,2026-11-18,C,C22,P1641,rejected,I need someone in Hyderabad.,avoidable
+S0874,2026-11-18,C,C24,P1664,rejected,A little young for me.,avoidable
+S0875,2026-11-18,C,C25,P1768,rejected,"No spark, sorry.",taste
+S0876,2026-11-18,C,C27,P1704,rejected,Not drawn to her profile.,taste
+S0877,2026-11-18,C,C27,P1721,rejected,"She lives with her parents in a big joint family, not sure about that.",new_pref
+S0878,2026-11-18,C,C27,P1765,rejected,Didn't feel any attraction from the photos.,taste
+S0879,2026-11-18,C,C28,P1667,rejected,"Inter-faith won't work for us, sorry.",avoidable
+S0880,2026-11-18,C,C29,P1654,rejected,"Smoker, sorry. Deal breaker.",avoidable
+S0881,2026-11-18,C,C29,P1657,rejected,"She lives with her parents in a joint family, not for me.",avoidable
+S0882,2026-11-18,C,C30,P1661,rejected,"Non-veg, not compatible with my family.",avoidable
+S0883,2026-11-18,D,C33,P2025,rejected,"Not keen on someone in law, the hours are crazy.",new_pref
+S0884,2026-11-18,D,C35,P1824,accepted,,
+S0885,2026-11-18,D,C35,P1861,accepted,,
+S0886,2026-11-18,D,C35,P1955,rejected,Nope.,vague
+S0887,2026-11-18,D,C37,P1827,meeting_completed,,
+S0888,2026-11-18,D,C37,P1869,accepted,,
+S0889,2026-11-18,D,C39,P2040,rejected,Not for me.,vague
+S0890,2026-11-18,D,C40,P2003,rejected,Not interested.,vague
+S0891,2026-11-19,A,C03,P1223,rejected,I'd really prefer someone in Chennai.,new_pref
+S0892,2026-11-19,A,C05,P1219,rejected,"Feels very introverted, I'm quite outgoing.",taste
+S0893,2026-11-19,A,C07,P1137,contact_shared,,
+S0894,2026-11-19,A,C08,P1107,meeting_completed,,
+S0895,2026-11-19,A,C09,P1138,rejected,"Would really prefer a Telugu speaker, my parents don't speak much English.",avoidable
+S0896,2026-11-19,A,C09,P1143,rejected,"He doesn't want kids, that's non-negotiable for me.",avoidable
+S0897,2026-11-19,A,C10,P1254,rejected,"Not keen on someone in law, the hours are crazy.",new_pref
+S0898,2026-11-19,B,C14,P1320,conversation,,
+S0899,2026-11-19,B,C15,P1367,rejected,Profile says she smokes. Not for me.,avoidable
+S0900,2026-11-19,B,C16,P1261,conversation,,
+S0901,2026-11-19,B,C18,P1294,contact_shared,,
+S0902,2026-11-19,B,C19,P1271,accepted,,
+S0903,2026-11-19,B,C19,P1317,meeting_fixed,,
+S0904,2026-11-19,B,C20,P1326,rejected,"She's a investment banker, that's a 24x7 job. I'd mentioned this on the call.",avoidable
+S0905,2026-11-19,B,C20,P1356,rejected,"I'd prefer someone with a postgraduate degree, as I mentioned.",avoidable
+S0906,2026-11-19,B,C20,P1372,rejected,Lives in Mumbai and won't relocate. Long distance won't work.,avoidable
+S0907,2026-11-19,C,C21,P1745,rejected,"Photos are blurry, can you get better ones?",presentation
+S0908,2026-11-19,C,C22,P2053,conversation,,
+S0909,2026-11-19,C,C24,P1628,meeting_completed,,
+S0910,2026-11-19,C,C24,P1675,rejected,Language would be a barrier with my family.,avoidable
+S0911,2026-11-19,C,C24,P1791,rejected,"Busy with a work launch, send me profiles next month.",timing
+S0912,2026-11-19,C,C26,P1772,rejected,Not interested.,vague
+S0913,2026-11-19,C,C27,P1601,meeting_completed,,
+S0914,2026-11-19,C,C27,P1797,rejected,Can we revisit after Diwali?,timing
+S0915,2026-11-19,C,C28,P1598,meeting_completed,,
+S0916,2026-11-19,C,C28,P2057,meeting_fixed,,
+S0917,2026-11-19,C,C28,P1737,rejected,"Hmm, no.",vague
+S0918,2026-11-19,C,C28,P1751,rejected,"Travelling this month, please hold off.",timing
+S0919,2026-11-19,C,C28,P1778,rejected,Can we revisit after Diwali?,timing
+S0920,2026-11-19,C,C29,P1610,meeting_completed,,
+S0921,2026-11-19,C,C29,P1700,rejected,"Not ready this week, work is crazy.",timing
+S0922,2026-11-19,C,C29,P1760,rejected,"No spark, sorry.",taste
+S0923,2026-11-19,C,C30,P1604,accepted,,
+S0924,2026-11-19,D,C32,P1816,meeting_fixed,,
+S0925,2026-11-19,D,C32,P2058,accepted,,
+S0926,2026-11-19,D,C32,P1952,rejected,"Photos are blurry, can you get better ones?",presentation
+S0927,2026-11-19,D,C32,P1982,rejected,I'd rather not marry a investment banker.,new_pref
+S0928,2026-11-19,D,C34,P2009,rejected,Only one photo and it's old.,presentation
+S0929,2026-11-19,D,C35,P1838,meeting_completed,,
+S0930,2026-11-19,D,C36,P1865,conversation,,
+S0931,2026-11-19,D,C38,P1837,meeting_completed,,
+S0932,2026-11-19,D,C38,P1857,contact_shared,,
+S0933,2026-11-19,D,C40,P1848,contact_shared,,
+S0934,2026-11-20,A,C01,P1234,rejected,"Photos are blurry, can you get better ones?",presentation
+S0935,2026-11-20,A,C03,P1068,accepted,,
+S0936,2026-11-20,A,C05,P1051,accepted,,
+S0937,2026-11-20,A,C05,P1236,rejected,Not feeling it.,vague
+S0938,2026-11-20,B,C11,P1493,rejected,Joint family isn't for me.,new_pref
+S0939,2026-11-20,B,C13,P1379,rejected,"She's 45, way older than what I asked for.",avoidable
+S0940,2026-11-20,B,C13,P1485,rejected,Can we revisit after Diwali?,timing
+S0941,2026-11-20,B,C14,P1268,accepted,,
+S0942,2026-11-20,B,C14,P1497,rejected,Didn't feel any attraction from the photos.,taste
+S0943,2026-11-20,B,C15,P1435,rejected,"Different city, and she isn't open to moving.",avoidable
+S0944,2026-11-20,B,C15,P1472,rejected,"Profile is very thin, barely any info.",presentation
+S0945,2026-11-20,B,C17,P1515,rejected,"Hmm, no.",vague
+S0946,2026-11-20,B,C18,P1496,rejected,Height matters to me more than I thought.,new_pref
+S0947,2026-11-20,B,C19,P1298,conversation,,
+S0948,2026-11-20,C,C23,P1651,rejected,"Joint family set-up, I'd said I don't want that.",avoidable
+S0949,2026-11-20,C,C24,P1677,rejected,Height is an issue.,avoidable
+S0950,2026-11-20,C,C24,P1707,rejected,Long distance won't work for me.,new_pref
+S0951,2026-11-20,C,C25,P1656,rejected,"Not okay with smoking, I mentioned this on our first call.",avoidable
+S0952,2026-11-20,C,C29,P1785,rejected,Seems a bit arrogant from the bio.,taste
+S0953,2026-11-20,C,C30,P1566,meeting_completed,,
+S0954,2026-11-20,C,C30,P1734,rejected,Would prefer someone a bit shorter.,new_pref
+S0955,2026-11-20,D,C31,P1971,rejected,Pass.,vague
+S0956,2026-11-20,D,C33,P1842,contact_shared,,
+S0957,2026-11-20,D,C33,P1987,rejected,Not interested.,vague
+S0958,2026-11-20,D,C34,P1846,meeting_fixed,,
+S0959,2026-11-20,D,C37,P1847,conversation,,
+S0960,2026-11-20,D,C37,P1856,meeting_completed,,
+S0961,2026-11-20,D,C38,P1895,rejected,"Saw a cigarette in one of the photos, that is a no for me.",avoidable
+S0962,2026-11-20,D,C38,P1988,rejected,Not for me.,vague
+S0963,2026-11-20,D,C40,P1823,accepted,,
+S0964,2026-11-21,A,C02,P1148,rejected,"He's settled in New York, I want to stay in India.",avoidable
+S0965,2026-11-21,A,C04,P2061,accepted,,
+S0966,2026-11-21,A,C09,P1122,contact_shared,,
+S0967,2026-11-21,A,C10,P1054,accepted,,
+S0968,2026-11-21,A,C10,P2060,conversation,,
+S0969,2026-11-21,B,C11,P1351,rejected,Lives in Bengaluru and won't relocate. Long distance won't work.,avoidable
+S0970,2026-11-21,B,C11,P1452,rejected,Not my type.,taste
+S0971,2026-11-21,B,C13,P1318,accepted,,
+S0972,2026-11-21,B,C14,P1482,rejected,Not feeling it.,vague
+S0973,2026-11-21,B,C15,P2062,conversation,,
+S0974,2026-11-21,B,C16,P1440,rejected,We want different things on children.,avoidable
+S0975,2026-11-21,B,C16,P1500,rejected,Not drawn to his profile.,taste
+S0976,2026-11-21,B,C17,P1336,rejected,"Second marriage, not what I'm looking for.",avoidable
+S0977,2026-11-21,B,C18,P2052,contact_shared,,
+S0978,2026-11-21,B,C19,P1352,rejected,Language would be a barrier with my family.,avoidable
+S0979,2026-11-21,B,C19,P1469,rejected,Didn't feel any attraction from the photos.,taste
+S0980,2026-11-21,C,C21,P1799,rejected,"No spark, sorry.",taste
+S0981,2026-11-21,C,C22,P1611,meeting_completed,,
+S0982,2026-11-21,C,C22,P1620,conversation,,
+S0983,2026-11-21,C,C23,P1584,meeting_fixed,,
+S0984,2026-11-21,C,C25,P1757,rejected,Height matters to me more than I thought.,new_pref
+S0985,2026-11-21,C,C26,P1647,rejected,Too much of a party person for me.,avoidable
+S0986,2026-11-21,C,C27,P1807,rejected,"She lives with her parents in a big joint family, not sure about that.",new_pref
+S0987,2026-11-21,C,C28,P1676,rejected,"Different city, and he isn't open to moving.",avoidable
+S0988,2026-11-21,C,C29,P2049,contact_shared,,
+S0989,2026-11-21,D,C31,P1877,conversation,,
+S0990,2026-11-21,D,C31,P1960,rejected,Looks-wise not for me.,taste
+S0991,2026-11-21,D,C31,P2027,rejected,Not feeling it.,vague
+S0992,2026-11-21,D,C33,P1923,rejected,"She eats meat, we're pure veg at home.",avoidable
+S0993,2026-11-21,D,C35,P2048,accepted,,
+S0994,2026-11-21,D,C36,P1938,rejected,Not interested.,vague
+S0995,2026-11-21,D,C36,P1957,rejected,Pass.,vague
+S0996,2026-11-21,D,C36,P1980,rejected,Not for me.,vague
+S0997,2026-11-21,D,C37,P1897,rejected,Too much of a party person for me.,avoidable
+S0998,2026-11-21,D,C37,P1996,rejected,"Hmm, no.",vague
+S0999,2026-11-21,D,C38,P1949,rejected,Joint family isn't for me.,new_pref
+S1000,2026-11-21,D,C40,P1864,meeting_completed,,
