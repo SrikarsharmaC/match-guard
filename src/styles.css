@@ -1,34 +1,40 @@
+/* Match Guard, styled after The Date Crew's site: a warm stone-and-cream base, a forest-green action colour
+   (their "Apply Now" pills), gold serif display type on a near-black header, and generous 12-24px radii.
+   Red / amber / green appear only on verdicts, always with an icon and a label. */
 :root {
-  /* Match Guard: a calm internal tool for matchmakers. Ink-blue accent for actions and the one series that matters;
-     red / amber / green only for verdicts (with icon + label). Layout: header, tabs, a two-column workbench. */
-  --bg: #f3f4f7;
+  --bg: #f7f4ee;
   --surface: #ffffff;
-  --ink: #1a2230;
-  --ink-2: #586273;
-  --line: #e0e4ea;
-  --accent: #3550c8;
+  --ink: #1b1b1b;
+  --ink-2: #57534d;
+  --line: #e6dfd2;
+  --accent: #244c3c;
+  --accent-2: #1b3a2f;
   --accent-ink: #ffffff;
-  --accent-soft: #e8ecfb;
-  --chart: #a3abb8;
-  --hard: #b42318; --hard-bg: #fdecea;
-  --soft: #8a5a00; --soft-bg: #fbf0d6;
-  --ok: #17734a; --ok-bg: #e2f2e9;
-  --font-display: "Sora", "Segoe UI", system-ui, sans-serif;
-  --font-body: "Source Sans 3", "Segoe UI", system-ui, sans-serif;
+  --accent-soft: #e6eee8;
+  --gold: #ebc796;
+  --bronze: #ac7121;
+  --sand: #e2dbcd;
+  --night: #111111;
+  --chart: #b9ae9c;
+  --hard: #a3322a; --hard-bg: #f9e8e4;
+  --soft: #8a5a12; --soft-bg: #fbf0dc;
+  --ok: #24543f; --ok-bg: #e4efe7;
+  --font-display: "Fraunces", "GT Alpina", Georgia, serif;
+  --font-body: "Inter Tight", "Inter", "Segoe UI", system-ui, sans-serif;
   color-scheme: light;
 }
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
-    --bg: #0f1319; --surface: #171c24; --ink: #e6eaf0; --ink-2: #9aa4b3; --line: #29313f;
-    --accent: #8fa3ff; --accent-ink: #0f1319; --accent-soft: #1f2846; --chart: #5f6979;
-    --hard: #ff8f80; --hard-bg: #3a1e1b; --soft: #f0bd5e; --soft-bg: #33290f; --ok: #63d09c; --ok-bg: #14301f;
+    --bg: #111111; --surface: #1b1b1b; --ink: #f1f0ec; --ink-2: #a8a29e; --line: #2e2b27;
+    --accent: #ebc796; --accent-2: #d9b07a; --accent-ink: #1b1b1b; --accent-soft: #2f261d; --chart: #6f675d;
+    --hard: #ff9a8c; --hard-bg: #3a1e1b; --soft: #f0bd5e; --soft-bg: #33290f; --ok: #8fd1ae; --ok-bg: #16291f;
     color-scheme: dark;
   }
 }
 :root[data-theme="dark"] {
-  --bg: #0f1319; --surface: #171c24; --ink: #e6eaf0; --ink-2: #9aa4b3; --line: #29313f;
-  --accent: #8fa3ff; --accent-ink: #0f1319; --accent-soft: #1f2846; --chart: #5f6979;
-  --hard: #ff8f80; --hard-bg: #3a1e1b; --soft: #f0bd5e; --soft-bg: #33290f; --ok: #63d09c; --ok-bg: #14301f;
+  --bg: #111111; --surface: #1b1b1b; --ink: #f1f0ec; --ink-2: #a8a29e; --line: #2e2b27;
+  --accent: #ebc796; --accent-2: #d9b07a; --accent-ink: #1b1b1b; --accent-soft: #2f261d; --chart: #6f675d;
+  --hard: #ff9a8c; --hard-bg: #3a1e1b; --soft: #f0bd5e; --soft-bg: #33290f; --ok: #8fd1ae; --ok-bg: #16291f;
   color-scheme: dark;
 }
 
@@ -320,3 +326,35 @@ code { font: 12.5px/1.4 ui-monospace, SFMono-Regular, Menlo, monospace; backgrou
 .empty-state { max-width: 640px; margin: 40px auto; text-align: center; padding: 32px; }
 .empty-state .sub { color: var(--ink-2); margin: 8px 0 18px; }
 .empty-state .btn { text-decoration: none; display: inline-block; }
+
+
+/* ---------- The Date Crew look ---------- */
+body { letter-spacing: -.005em; }
+h2 { font-family: var(--font-display); font-weight: 500; font-size: 21px; letter-spacing: -.015em; }
+.top { background: var(--night); border-bottom: 0; color: #f1f5f9; padding-top: 22px; padding-bottom: 20px; }
+.brand h1 { font-family: var(--font-display); font-weight: 400; font-size: 30px; letter-spacing: -.03em; color: var(--gold); }
+.brand h1 em { font-style: italic; }
+.brand p { color: #d6d3d1; font-size: 14.5px; }
+.brand p.byline { color: #a8a29e; font-size: 12.5px; margin-top: 2px; }
+.mark { width: 42px; height: 42px; border-radius: 50%; background: var(--gold); color: var(--night); }
+.top .datanote { color: #d6d3d1; }
+.top .datanote a, .top .linkbtn { color: var(--gold); }
+.top .pill.ok { background: var(--gold); color: var(--night); }
+.tabs { background: var(--bg); border-bottom: 1px solid var(--line); }
+.tabs a { font-size: 15px; font-weight: 500; color: var(--ink-2); padding: 8px 16px; }
+.tabs a.on { background: var(--ink); color: #fff; }
+.tabs a.tab-data { border-color: var(--bronze); color: var(--bronze); }
+.tabs a.tab-data.on { background: var(--bronze); color: #fff; }
+.card { border-radius: 16px; border-color: var(--line); }
+.btn { border-radius: 999px; background: linear-gradient(145deg, var(--accent), var(--accent-2)); border-color: var(--accent-2); font-weight: 600; padding: 9px 18px; }
+.btn.ghost { background: transparent; color: var(--accent); border-color: var(--accent); }
+.btn.on { background: var(--ok-bg); color: var(--ok); border-color: var(--ok); }
+.btn.small { padding: 5px 12px; }
+.kpi .big, .funnel .n, .cand .score span, .stats b { font-family: var(--font-display); font-weight: 500; letter-spacing: -.02em; }
+.kpi.accent { border-color: var(--accent); box-shadow: inset 0 0 0 1px var(--accent); background: linear-gradient(180deg, var(--surface), var(--accent-soft)); }
+.avatar { background: var(--sand); color: var(--ink); font-family: var(--font-display); }
+.stepn { background: var(--ink); color: var(--gold); font-family: var(--font-display); }
+.prod { background: var(--sand); border-color: transparent; }
+.mail-card .ml { margin-top: 6px; }
+.ml-chip { border-color: var(--bronze); color: var(--bronze); background: transparent; }
+.lead strong { font-weight: 600; }

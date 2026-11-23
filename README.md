@@ -2,7 +2,7 @@
 
 [![CI](https://github.com/SrikarsharmaC/match-guard/actions/workflows/ci.yml/badge.svg)](https://github.com/SrikarsharmaC/match-guard/actions/workflows/ci.yml)
 
-A pre-send preference check for The Date Crew's matchmakers. Built for the Product Growth assessment, and ready to run on real client data today.
+A compatibility check before every introduction, for The Date Crew's matchmakers. Before a profile goes to a Partner Search client, Match Guard checks it against both people's Partner Preferences, so "compatibility-checked" is true for every introduction. Built for the Product Growth assessment, styled to sit alongside thedatecrew.com, and ready to run on real data today. It is a prototype by Srikar Chintalapally, not an official TDC product.
 
 **Live tool:** https://srikarsharmac.github.io/match-guard/ · **Walkthrough (76 s):** [docs/match-guard-walkthrough.mp4](docs/match-guard-walkthrough.mp4) · **Write-up:** linked in the submission
 

@@ -8,8 +8,8 @@
 export const PROFILE_COLUMNS = [
   ['id', 'Unique ID, e.g. C001 or P1042', true],
   ['name', 'Display name, e.g. Ananya R.', true],
-  ['role', 'client (pays, gets profiles) or candidate (in the pool)', true],
-  ['matchmaker', 'Matchmaker who owns the client (clients only)', false],
+  ['role', 'client (Partner Search: receives introductions) or member (TDC Member in the network)', true],
+  ['matchmaker', 'Dedicated matchmaker (Partner Search clients only)', false],
   ['gender', 'F or M', true],
   ['seeking', 'F or M', true],
   ['age', 'Years', true],
@@ -41,15 +41,15 @@ export const PROFILE_COLUMNS = [
   ['pref_drinking', 'No or Socially (= at most socially)', false],
   ['pref_kids', 'Yes or No', false],
   ['dealbreakers', 'Fields that must always block, separated by |: smoking, kids, religion, diet, marital_status, age, height, city, education, mother_tongue, drinking', false],
-  ['call_notes', 'Free text from intake calls', false],
+  ['call_notes', 'Free text from the intake call and fortnightly check-ins', false],
 ];
 
 export const SHARE_COLUMNS = [
   ['share_id', 'Unique ID (blank = generated)', false],
   ['date', 'YYYY-MM-DD', true],
   ['matchmaker', 'Who sent it', true],
-  ['client_id', 'Profile ID of the client who received it', true],
-  ['candidate_id', 'Profile ID of the profile sent', true],
+  ['client_id', 'Profile ID of the Partner Search client', true],
+  ['candidate_id', 'Profile ID of the member introduced', true],
   ['furthest_stage', 'rejected / accepted / contact_shared / conversation / meeting_fixed / meeting_completed', true],
   ['feedback', "The client's reply, as written (rejections)", false],
   ['reason_bucket', 'Optional, if a matchmaker tagged it: avoidable / new_pref / taste / timing / presentation / vague', false],
@@ -129,7 +129,7 @@ const PREF_DIET_OUT = { Veg: 'Veg', VegEgg: 'Veg+Egg' };
 export function profileToRow(p) {
   const pr = p.prefs || {};
   return {
-    id: p.id, name: p.name, role: p.client ? 'client' : 'candidate', matchmaker: p.client ? p.mm : '',
+    id: p.id, name: p.name, role: p.client ? 'client' : 'member', matchmaker: p.client ? p.mm : '',
     gender: p.gender, seeking: p.seeking, age: p.age, height_cm: p.height ?? '', religion: p.religion ?? '',
     mother_tongue: p.tongue ?? '', city: p.city ?? '', will_relocate: p.relocate ? 'yes' : 'no', education: p.edu ?? '',
     industry: p.industry ?? '', profession: p.profession ?? '', marital_status: p.marital ?? '', diet: p.diet ?? '',
@@ -195,8 +195,9 @@ export function rowsToProfiles(records, rep) {
     if (!r.id) { rep.error(F, L, 'id', 'is required'); continue; }
     if (seen.has(r.id)) { rep.error(F, L, 'id', `"${r.id}" appears twice`); continue; }
     seen.add(r.id);
-    const role = (r.role || '').toLowerCase();
-    if (role !== 'client' && role !== 'candidate') rep.error(F, L, 'role', 'must be client or candidate');
+    const ROLE = { client: 'client', partner_search: 'client', 'partner search': 'client', premium: 'client', candidate: 'candidate', member: 'candidate', 'tdc member': 'candidate' };
+    const role = ROLE[(r.role || '').trim().toLowerCase()] || '';
+    if (!role) rep.error(F, L, 'role', 'must be client (Partner Search) or member');
     const gender = enumOf('gender', r.gender, rep, F, L, 'gender');
     const seeking = enumOf('gender', r.seeking, rep, F, L, 'seeking');
     if (!gender) rep.error(F, L, 'gender', 'must be F or M');

@@ -76,10 +76,10 @@ function mgStart(DATA, source) {
     const el = $('#datanote');
     if (!el) return;
     if (DEMO) {
-      el.innerHTML = 'Demo data, calibrated to the brief: 1,000 profiles shared in 30 days, 310 accepted, 42 meetings. <a href="#data">Use your own data</a>';
+      el.innerHTML = 'Demo data calibrated to the brief: 1,000 profiles shared in 30 days, 310 accepted, 42 meetings completed. <a href="#data">Use your own data</a>';
     } else {
       const w = DATA.meta && DATA.meta.window ? ` · shares ${MONTH(DATA.meta.window[0])} – ${MONTH(DATA.meta.window[1])}` : '';
-      el.innerHTML = `<span class="pill ok">Your data</span> ${num(DATA.profiles.length)} profiles · ${num(clients.length)} clients · ${num(DATA.shares.length)} shares${w}. Stored only in this browser. <button type="button" class="linkbtn" data-reset>Back to demo data</button>`;
+      el.innerHTML = `<span class="pill ok">Your data</span> ${num(DATA.profiles.length)} profiles · ${num(clients.length)} Partner Search clients · ${num(DATA.shares.length)} shares${w}. Stored only in this browser. <button type="button" class="linkbtn" data-reset>Back to demo data</button>`;
     }
   }
 
@@ -90,7 +90,7 @@ function mgStart(DATA, source) {
   // ---------- view 1: pre-send check ----------
   function renderCheck() {
     const c = byId.get(state.clientId);
-    if (!c) { $('#view-check').innerHTML = emptyState('No clients yet', 'Load a profiles file with at least one row where role is client.'); return; }
+    if (!c) { $('#view-check').innerHTML = emptyState('No clients yet', 'Load a profiles file with at least one Partner Search client (role = client).'); return; }
     const res = searchPool(c, DATA.profiles, sharedByClient.get(c.id) || new Set(), state.policy);
     const groups = {
       ready: res.results.filter((r) => r.verdict === 'clear'),
@@ -106,8 +106,8 @@ function mgStart(DATA, source) {
 
     $('#view-check').innerHTML = `
       <div class="check-grid">
-        <aside class="card client" aria-label="Client">
-          <label class="lbl" for="client-select">Client</label>
+        <aside class="card client" aria-label="Partner Search client">
+          <label class="lbl" for="client-select">Partner Search client</label>
           <select id="client-select">${mmOptions}</select>
           <div class="who">
             <span class="avatar" aria-hidden="true">${esc(initials(c))}</span>
@@ -125,9 +125,9 @@ function mgStart(DATA, source) {
         </aside>
         <section class="results" aria-label="Shortlist">
           <div class="card funnel">
-            <p class="lead"><strong>${num(f.passBoth)}</strong> of ${num(f.pool)} ${seekWord(c)} in the pool pass both sides' hard rules; <strong>${num(f.clear)}</strong> have no warnings at all.</p>
+            <p class="lead"><strong>${num(f.passBoth)}</strong> of ${num(f.pool)} ${seekWord(c)} in the network pass both sides' hard rules; <strong>${num(f.clear)}</strong> have no warnings at all.</p>
             <ol class="steps">
-              <li><span class="n">${num(f.pool)}</span><span class="l">${seekWord(c)} in the pool</span></li>
+              <li><span class="n">${num(f.pool)}</span><span class="l">${seekWord(c)} in the network</span></li>
               <li><span class="n">${num(f.passClient)}</span><span class="l">pass ${esc(first(c))}'s hard rules</span></li>
               <li><span class="n">${num(f.passBoth)}</span><span class="l">pass theirs too</span></li>
               <li class="em"><span class="n">${num(f.clear)}</span><span class="l">no warnings</span></li>
@@ -141,7 +141,7 @@ function mgStart(DATA, source) {
           ${rest > 0 ? `<button type="button" class="btn ghost more" data-more>Show ${Math.min(10, rest)} more of ${rest}</button>` : ''}
         </section>
       </div>
-      ${state.picked.size ? `<div class="tray" role="region" aria-label="Email shortlist"><span><b>${state.picked.size}</b> selected for ${esc(first(c))}'s email</span><button type="button" class="btn" data-preview>Preview email</button><button type="button" class="btn ghost" data-clear>Clear</button></div>` : ''}`;
+      ${state.picked.size ? `<div class="tray" role="region" aria-label="Introduction shortlist"><span><b>${state.picked.size}</b> selected for ${esc(first(c))}'s next introduction</span><button type="button" class="btn" data-preview>Preview introduction</button><button type="button" class="btn ghost" data-clear>Clear</button></div>` : ''}`;
   }
 
   function candRow(r, c) {
@@ -149,7 +149,7 @@ function mgStart(DATA, source) {
     const picked = state.picked.has(p.id);
     const action = r.verdict === 'blocked'
       ? `<button type="button" class="btn small ghost" data-override="${p.id}">Override…</button>`
-      : `<button type="button" class="btn small ${picked ? 'on' : ''}" data-pick="${p.id}" aria-pressed="${picked}">${picked ? 'Added ✓' : 'Add to email'}</button>`;
+      : `<button type="button" class="btn small ${picked ? 'on' : ''}" data-pick="${p.id}" aria-pressed="${picked}">${picked ? 'Shortlisted ✓' : 'Shortlist'}</button>`;
     return `<li class="cand ${r.verdict}">
       <div class="score" data-tip="Fit score: 60 for passing the hard rules, up to 40 more for shared city, language, diet, age near the middle of the range and meeting their preferences, minus warnings."><span>${r.score}</span><i style="width:${r.score}%"></i></div>
       <div class="info">
@@ -404,7 +404,7 @@ function mgStart(DATA, source) {
         <section class="card step">
           <span class="stepn">1</span>
           <h2>Export two sheets</h2>
-          <p class="sub">From your CRM or Google Sheets, export <b>profiles.csv</b> (clients and the profiles you send them) and, for the replay and feedback pages, <b>shares.csv</b> (every profile sent and how far it got). Column names are fixed; values are forgiving ("Vegetarian" and "Veg" both work).</p>
+          <p class="sub">From your CRM or Google Sheets, export <b>profiles.csv</b> (Partner Search clients and the members you introduce, with their Partner Preferences) and, for the replay and feedback pages, <b>shares.csv</b> (every profile sent and how far it got). Column names are fixed; values are forgiving ("Vegetarian" and "Veg" both work).</p>
           <div class="btnrow">
             <button type="button" class="btn" data-template="blank">Download blank templates</button>
             <button type="button" class="btn ghost" data-template="current">Download ${DEMO ? 'the demo data' : 'your current data'} as CSV</button>
@@ -428,7 +428,7 @@ function mgStart(DATA, source) {
           <h2>Check and load</h2>
           ${res ? `
             <ul class="stats">
-              <li><b>${num(res.stats.clients)}</b> clients</li><li><b>${num(res.stats.candidates)}</b> profiles in the pool</li>
+              <li><b>${num(res.stats.clients)}</b> Partner Search clients</li><li><b>${num(res.stats.candidates)}</b> members in the network</li>
               <li><b>${num(res.stats.shares)}</b> shares</li><li><b>${num(res.stats.matchmakers)}</b> matchmakers</li>
             </ul>
             <p class="${errs.length ? 'err' : 'okline'}">${errs.length ? `${errs.length} error${errs.length > 1 ? 's' : ''} to fix before loading. Rows with errors are left out, so fix them in the sheet and choose the file again.` : `Ready to load.${warns.length ? ` ${warns.length} warning${warns.length > 1 ? 's' : ''}: those values are treated as not recorded, which Match Guard flags for the matchmaker rather than assuming.` : ' No problems found.'}`}</p>
@@ -467,17 +467,18 @@ function mgStart(DATA, source) {
       const why = ev.positives.length ? ev.positives.join(' · ') : 'Matches your stated preferences';
       return `<div class="mail-card">
         <div class="mail-head"><span class="avatar" aria-hidden="true">${esc(initials(p))}</span><div><b>${esc(p.name)}</b>, ${p.age} · ${esc(p.city)}<br><span class="muted">${esc(p.profession)} · ${esc(p.religion)} · ${esc(p.tongue)}</span></div></div>
-        <p class="why">Why I picked ${p.gender === 'F' ? 'her' : 'him'}: ${esc(why)}</p>
+        <p class="why"><b>Compatibility summary:</b> ${esc(why)}</p>
+        <p class="ml"><span class="chip ml-chip">Magic Link ↗</span> <span class="muted small">Verified: ID, degree, income</span></p>
         <div class="mail-btns"><span class="mb yes">Interested</span><span class="lbl-inline">Not for me:</span>${['Age', 'Height', 'Location', 'Lifestyle', 'Profession', 'Family', 'Photos or profile', 'Not now'].map((x) => `<span class="mb">${x}</span>`).join('')}</div>
       </div>`;
     }).join('');
     openModal(`
-      <div class="dlg-head"><h2 id="dlg-title">Email preview</h2><button type="button" class="x" data-close aria-label="Close">×</button></div>
+      <div class="dlg-head"><h2 id="dlg-title">Introduction preview</h2><button type="button" class="x" data-close aria-label="Close">×</button></div>
       <div class="mail">
-        <p class="subject"><span class="muted">Subject</span> ${state.picked.size} profile${state.picked.size > 1 ? 's' : ''} for you this week, ${esc(first(c))}</p>
-        <p>Hi ${esc(first(c))}, here are this week's profiles. One tap under each tells me what to change next time.</p>
+        <p class="subject"><span class="muted">Subject</span> ${state.picked.size} hand-picked introduction${state.picked.size > 1 ? 's' : ''} for you, ${esc(first(c))}</p>
+        <p>Hi ${esc(first(c))}, here ${state.picked.size > 1 ? 'are this week\'s introductions, each' : 'is this week\'s introduction,'} compatibility-checked against your Partner Preferences and theirs. One tap under each tells me what to refine next time.</p>
         ${items}
-        <p class="muted small">Matchmaker ${c.mm}, The Date Crew</p>
+        <p class="muted small">Your matchmaker (Matchmaker ${esc(c.mm)}), The Date Crew</p>
       </div>
       <p class="foot">Each button is a one-click link that records a structured reason against this share. Free-text replies still go through the feedback reader.</p>`);
   }
