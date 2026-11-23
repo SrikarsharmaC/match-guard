@@ -342,7 +342,7 @@ h2 { font-family: var(--font-display); font-weight: 500; font-size: 21px; letter
 .top .pill.ok { background: var(--gold); color: var(--night); }
 .tabs { background: var(--bg); border-bottom: 1px solid var(--line); }
 .tabs a { font-size: 15px; font-weight: 500; color: var(--ink-2); padding: 8px 16px; }
-.tabs a.on { background: var(--ink); color: #fff; }
+.tabs a.on { background: var(--ink); color: var(--bg); }
 .tabs a.tab-data { border-color: var(--bronze); color: var(--bronze); }
 .tabs a.tab-data.on { background: var(--bronze); color: #fff; }
 .card { border-radius: 16px; border-color: var(--line); }
@@ -353,7 +353,7 @@ h2 { font-family: var(--font-display); font-weight: 500; font-size: 21px; letter
 .kpi .big, .funnel .n, .cand .score span, .stats b { font-family: var(--font-display); font-weight: 500; letter-spacing: -.02em; }
 .kpi.accent { border-color: var(--accent); box-shadow: inset 0 0 0 1px var(--accent); background: linear-gradient(180deg, var(--surface), var(--accent-soft)); }
 .avatar { background: var(--sand); color: var(--ink); font-family: var(--font-display); }
-.stepn { background: var(--ink); color: var(--gold); font-family: var(--font-display); }
+.stepn { background: var(--night); color: var(--gold); font-family: var(--font-display); }
 .prod { background: var(--sand); border-color: transparent; }
 .mail-card .ml { margin-top: 6px; }
 .ml-chip { border-color: var(--bronze); color: var(--bronze); background: transparent; }
